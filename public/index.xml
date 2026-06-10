@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Project</title>
+    <title>Home on Erfan Jaripour</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Project</description>
+    <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Independent researcher holding a Bachelor of Science in Psychology. Research interests include computational psychology, cognitive science, learning, consciousness, machine learning, statistical modeling, and data science. Currently engaged in independent research and open-source software projects using Python for data analysis, simulation, and quantitative behavioral research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h3 id=&#34;research-interests&#34;&gt;Research interests&lt;/h3&gt;
+&lt;p&gt;Computational Cognitive Neuroscience, Working Memory, Learning and Adaptive Behavior, Decision-Making, Reinforcement Learning, Bayesian Cognitive Modeling&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;p&gt;Bachelor of Psychology, Islamic Azad University, Tehran, Iran 2021–2025&lt;/p&gt;
+&lt;p&gt;GPA: 19.55/20 (equivalent approximately 3.9/4.0)&lt;/p&gt;
+&lt;p&gt;THESIS: Relationship Between Psychological Disorders and Defense Mechanisms in Adolescents&lt;/p&gt;
+&lt;p&gt;SUPERVISOR: Dr. Hamid Reza Vatankhah&lt;/p&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;p&gt;PROGRAMMING: Python, R&lt;/p&gt;
+&lt;p&gt;SCIENTIFIC LIBRARIES: pandas, NumPy, scipy, matplotlib, seaborn, statsmodels&lt;/p&gt;
+&lt;p&gt;STATISTICAL METHODS: Regression, ANOVA, hypothesis testing, exploratory data analysis, Effect sizes, Confidence intervals, Multiple regression, Mixed-effects models, Bayesian Statistics, Cognitive Modeling,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;Preprints and research outputs submitted to PsyArXiv or similar platforms.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
