@@ -3,6 +3,9 @@ locale = "en-us"
 title = "Erfan Jaripour"
 theme = "PaperMod"
 
+[params]
+customCSS = ["css/extended/custom.css"]
+
 [menu]
 
   [[menu.main]]

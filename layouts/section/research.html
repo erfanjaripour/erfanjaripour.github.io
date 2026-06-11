@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<h1>Research</h1>
+
+<div class="projects">
+
+  {{ range .Pages.ByWeight }}
+
+  <div class="project-card">
+
+    <!-- TITLE (LINK ONLY) -->
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+
+    <!-- OVERVIEW -->
+    {{ with .Params.overview }}
+      <p><strong>Overview:</strong> {{ . }}</p>
+    {{ end }}
+    <!-- RESEARCH QUESTION -->
+    {{ with .Params.research_question }}
+      <p><strong>Research Question:</strong> {{ . }}</p>
+    {{ end }}
+
+  </div>
+
+  {{ end }}
+
+</div>
+
+{{ end }}

@@ -1,0 +1,18 @@
+.projects {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.project-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.0rem;
+}
+
+.project-card p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
