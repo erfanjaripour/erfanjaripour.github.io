@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<h1>Research Journal</h1>
+
+{{ range .Pages.ByDate.Reverse }}
+
+<div class="journal-card">
+
+  <a href="{{ .RelPermalink }}">
+    <strong>{{ .Date.Format "2006-01-02" }}</strong>
+  </a>
+
+  <p class="journal-summary">
+    {{ .Summary }}
+  </p>
+
+</div>
+
+{{ end }}
+
+{{ end }}
