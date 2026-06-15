@@ -6,35 +6,17 @@
     <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another Note</title>
-      <link>http://localhost:1313/journal/stroop-interference/2026-06-14-new-note/</link>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/stroop-interference/2026-06-14-new-note/</guid>
-      <description>&lt;h4 id=&#34;situation&#34;&gt;Situation&lt;/h4&gt;
-&lt;p&gt;Today I feel like I want to write a new note.&lt;/p&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
-&lt;p&gt;I was tessting my website and I thought it is good to have a second note to test things.&lt;/p&gt;
-&lt;h4 id=&#34;inferenc&#34;&gt;Inferenc&lt;/h4&gt;
-&lt;p&gt;I think we should test different ideas regularly but with extra cautious.&lt;/p&gt;
-&lt;h4 id=&#34;action&#34;&gt;Action&lt;/h4&gt;
-&lt;p&gt;I am going to test this.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Open Data Challage</title>
       <link>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
       <description>&lt;h4 id=&#34;situation&#34;&gt;Situation&lt;/h4&gt;
-&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data quality and preprocessing issues.&lt;/p&gt;
+&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
 &lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
-&lt;p&gt;The dataset contained incorrectly included header rows and duplicate participant entries across multiple trials. Multiple restructuring steps were required before analysis could proceed.&lt;/p&gt;
-&lt;h4 id=&#34;inferenc&#34;&gt;Inferenc&lt;/h4&gt;
-&lt;p&gt;Open datasets require explicit preprocessing validation before any exploratory or statistical analysis. Without this step, early-stage results may be systematically biased or misleading.&lt;/p&gt;
-&lt;h4 id=&#34;action&#34;&gt;Action&lt;/h4&gt;
-&lt;p&gt;Develop a standardized preprocessing checklist to validate dataset structure before initiating any analysis.&lt;/p&gt;</description>
+&lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>

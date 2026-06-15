@@ -10,9 +10,11 @@
     <strong>{{ .Date.Format "2006-01-02" }}</strong>
   </a>
 
-  <p class="journal-summary">
-    {{ .Summary }}
-  </p>
+  {{ with .Params.preview }}
+    <p class="journal-preview">
+      {{ . }}
+    </p>
+  {{ end }}
 
 </div>
 
