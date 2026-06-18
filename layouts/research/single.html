@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<article class="project-page">
+
+  <h1>{{ .Title }}</h1>
+
+  <p class="journal-date">
+    {{ .Date.Format "2 Jan 2006" }}
+  </p>
+
+  {{ with .Params.status }}
+    <p class="status">
+      Status: {{ . }}
+    </p>
+  {{ end }}
+
+  <hr>
+
+  {{ .Content }}
+
+</article>
+
+{{ end }}

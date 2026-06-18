@@ -19,6 +19,22 @@
 &lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Cognitive Interference in the Stroop Task</title>
+      <link>http://localhost:1313/research/stroop-interference/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/stroop-interference/</guid>
+      <description>&lt;p&gt;Abstract&lt;/p&gt;
+&lt;p&gt;Research question&lt;/p&gt;
+&lt;p&gt;Theoretical Background&lt;/p&gt;
+&lt;p&gt;Dataset&lt;/p&gt;
+&lt;p&gt;Methods&lt;/p&gt;
+&lt;p&gt;Results&lt;/p&gt;
+&lt;p&gt;Figures&lt;/p&gt;
+&lt;p&gt;Interpretation/Discussion&lt;/p&gt;
+&lt;p&gt;Limitations&lt;/p&gt;
+&lt;p&gt;Links to GitHub, PsyArXiv, dataset, ORCID if relevant&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

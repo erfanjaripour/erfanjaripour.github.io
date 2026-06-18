@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<h1>Research</h1>
+
+<div class="projects">
+
+  {{ range .Pages.ByDate }}
+
+  <div class="project-card">
+
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+
+    <p>{{ .Date.Format "January 2006" }}</p>
+
+    {{ with .Params.preview }}
+      <p><strong>Preview:</strong> {{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.status }}
+      <p><strong>Status:</strong> {{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.research_question }}
+      <p><strong>Research Question:</strong> {{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.method_keywords }}
+      <p><strong>Method keywords:</strong> {{ . }}</p>
+    {{ end }}
+
+  </div>
+
+  {{ end }}
+
+</div>
+
+{{ end }}
