@@ -20,6 +20,16 @@
     </item>
     <item>
       <title>Cognitive Interference in the Stroop Task</title>
+      <link>http://localhost:1313/publications/stroop-interference/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/stroop-interference/</guid>
+      <description>&lt;p&gt;Full citation&lt;/p&gt;
+&lt;p&gt;Abstract&lt;/p&gt;
+&lt;p&gt;Contribution summary (Research question, Method, Main finding)&lt;/p&gt;
+&lt;p&gt;Links (DOI/PDF/Code/Data)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cognitive Interference in the Stroop Task</title>
       <link>http://localhost:1313/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/stroop-interference/</guid>
@@ -57,13 +67,6 @@
 &lt;p&gt;PROGRAMMING: Python, R&lt;/p&gt;
 &lt;p&gt;SCIENTIFIC LIBRARIES: pandas, NumPy, scipy, matplotlib, seaborn, statsmodels&lt;/p&gt;
 &lt;p&gt;STATISTICAL METHODS: Regression, ANOVA, hypothesis testing, exploratory data analysis, Effect sizes, Confidence intervals, Multiple regression, Mixed-effects models, Bayesian Statistics, Cognitive Modeling,&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description>&lt;p&gt;Preprints and research outputs submitted to PsyArXiv or similar platforms.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -14,6 +14,15 @@
     </p>
   {{ end }}
 
+  {{ with .Params.publication_url }}
+  <p>
+    Publication:
+    <a href="{{ . }}" target="_blank" rel="noopener">
+      {{ $.Params.publication_title }}
+    </a>
+  </p>
+  {{ end }}
+
   <hr>
 
   {{ .Content }}

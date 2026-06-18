@@ -2,15 +2,12 @@
 
 <article class="journal-note">
 
-  <!-- NOTE TITLE -->
   <h1>{{ .Title }}</h1>
 
-  <!-- DATE -->
   <p class="journal-date">
     {{ .Date.Format "2 Jan 2006" }}
   </p>
 
-  <!-- PROJECT -->
   {{ with .Params.project }}
     <p class="journal-project">
       Project: {{ . }}
@@ -19,7 +16,6 @@
 
   <hr>
 
-  <!-- CONTENT -->
   {{ .Content }}
 
 </article>

@@ -7,6 +7,8 @@ params:
   preview: "This project is an analysis of cognitive interference in the Stroop task."
   research_question: "How does cognitive interference influence reaction time and accuracy during Stroop task performance?"
   method_keywords: "t-Test, Modeling"
+  publication_url: "/publications/stroop-interference/"
+  publication_title: "Cognitive Interference in the Stroop Task"
 ---
 
 Abstract

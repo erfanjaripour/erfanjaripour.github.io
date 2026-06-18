@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<h1>Publications</h1>
+
+{{ range .Pages.ByDate }}
+
+<div class="publication-list">
+
+  {{ with .Params.authors_year }}
+  <p>{{ . }}</p>
+  {{ end }}  
+
+  <a href="{{ .RelPermalink }}">
+    <strong>{{ .Title }}</strong>
+  </a>
+
+  {{ with .Params.venue }}
+  <p>{{ . }}</p>
+  {{ end }}
+
+  {{ with .Params.status }}
+  <p>{{ . }}</p>
+  {{ end }}
+
+</div>
+
+{{ end }}
+
+{{ end }}

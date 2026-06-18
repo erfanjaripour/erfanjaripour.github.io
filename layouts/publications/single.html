@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<article class="publication">
+
+  <h1>{{ .Title }}</h1>
+
+  <p>{{ .Date.Format "2 Jan 2006" }}</p>
+
+  {{ with .Params.project_url }}
+  <p>
+    Associated Research Project:
+    <a href="{{ . }}" target="_blank" rel="noopener">
+      {{ $.Params.project_title }}
+    </a>
+  </p>
+  {{ end }}
+
+  <hr>
+
+  {{ .Content }}
+
+</article>
+
+{{ end }}
