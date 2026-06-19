@@ -13,6 +13,10 @@ main {
   max-width: 800px;
 }
 
+section {
+    margin-bottom: 4rem;
+}
+
 /* ------- Research Page -------- */
 
 /* ------- Journal Page -------- */

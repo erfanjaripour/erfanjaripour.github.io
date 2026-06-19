@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+
+<section class="identity">
+
+  <p><strong>Field:</strong> {{ .Site.Params.field }}</p>
+  <p><strong>Location:</strong> {{ .Site.Params.location }}</p>
+
+  <p>{{ .Site.Params.current_focus }}</p>
+  <p>{{ .Site.Params.research_statement }}</p>
+</section>
+
+
+
+<section class="projects">
+  <h2>Active Projects</h2>
+
+  {{ range where .Site.RegularPages "Section" "research" }}
+    {{ if eq .Params.status "active" }}
+
+      <div class="project-card">
+        <h3>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+
+        <p>{{ .Params.research_question }}</p>
+      </div>
+
+    {{ end }}
+  {{ end }}
+
+</section>
+
+
+<section class="questions">
+  <h2>Current Research Questions</h2>
+
+  <ul>
+    {{ range .Site.Params.research_questions }}
+      <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+
+</section>
+
+
+<section class="journal">
+  <h2>Latest Journal Entries</h2>
+
+  {{ range first 5 (where site.RegularPages "Type" "journal") }}
+
+    <div class="journal-card">
+
+      <a href="{{ .RelPermalink }}">
+        <strong>{{ .Date.Format "2006-01-02" }}</strong>
+      </a>
+
+      {{ with .Params.preview }}
+        <p class="journal-preview">
+          {{ . }}
+        </p>
+      {{ end }}
+
+    </div>
+
+  {{ end }}
+
+</section>
+
+
+<section class="contact">
+  <h2>Contact</h2>
+
+  <p>
+    <a href="mailto:{{ .Site.Params.email }}">Email</a> ·
+    <a href="{{ .Site.Params.github }}">GitHub</a> ·
+    <a href="{{ .Site.Params.psyarxiv }}">PsyArXiv</a> ·
+    <a href="{{ .Site.Params.orcid }}">ORCID</a>
+  </p>
+
+</section>
+
+
+{{ end }}

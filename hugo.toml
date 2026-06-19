@@ -4,7 +4,24 @@ title = "Erfan Jaripour"
 theme = "PaperMod"
 
 [params]
-customCSS = ["css/extended/custom.css"]
+  customCSS = ["css/extended/custom.css"]
+
+  field = "Computational Cognitive Science / Psychology"
+  location = "Baku, Azerbaijan"
+  current_focus = "Working on cognitive interference and task-switching mechanisms"
+  research_statement = "Investigating computational and experimental models of cognitive control, with emphasis on interference, attention, and decision dynamics."
+
+  research_questions = [
+    "How does interference scale with cognitive load?",
+    "What mechanisms govern task-switching latency?",
+    "How stable are individual differences in Stroop interference?"
+  ]
+
+  email = "your@email.com"
+  github = "https://github.com/yourname"
+  psyarxiv = "https://psyarxiv.com/xxxx"
+  orcid = "https://orcid.org/0000-0000-0000-0000"
+
 
 [menu]
 
