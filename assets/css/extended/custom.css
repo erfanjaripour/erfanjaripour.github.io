@@ -17,6 +17,18 @@ section {
     margin-bottom: 4rem;
 }
 
+.post-content a {
+    text-decoration: none !important;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
 /* ------- Research Page -------- */
 
 /* ------- Journal Page -------- */
@@ -56,4 +68,18 @@ section {
   font-size: 0.85rem;
   color: #888;
   margin-bottom: 12px;
+}
+
+/* ------- CV Page -------- */
+
+.cv-entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cv-entry-date {
+    font-weight: normal;
+    font-style: normal;
+    white-space: nowrap;
 }
