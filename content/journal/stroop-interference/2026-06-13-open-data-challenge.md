@@ -1,7 +1,7 @@
 ---
 date: 2026-06-15
 title: "Open Data Challage"
-project: "Cognitive Interference of the Stroop Task"
+project: "Stroop Interference: A Behavioral and Computational Analysis"
 preview: "Open dataset required major preprocessing due to structural issues before any analysis could begin."
 ---
 

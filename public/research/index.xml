@@ -9,20 +9,14 @@
     <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cognitive Interference in the Stroop Task</title>
+      <title>Stroop Interference: A Behavioral and Computational Analysis</title>
       <link>http://localhost:1313/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/stroop-interference/</guid>
-      <description>&lt;p&gt;Abstract&lt;/p&gt;
-&lt;p&gt;Research question&lt;/p&gt;
-&lt;p&gt;Theoretical Background&lt;/p&gt;
-&lt;p&gt;Dataset&lt;/p&gt;
-&lt;p&gt;Methods&lt;/p&gt;
-&lt;p&gt;Results&lt;/p&gt;
-&lt;p&gt;Figures&lt;/p&gt;
-&lt;p&gt;Interpretation/Discussion&lt;/p&gt;
-&lt;p&gt;Limitations&lt;/p&gt;
-&lt;p&gt;Links to GitHub, PsyArXiv, dataset, ORCID if relevant&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.&lt;/p&gt;
+&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
+&lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
