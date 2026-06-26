@@ -3,7 +3,7 @@ title: "Stroop Interference: A Behavioral and Computational Analysis"
 date: 2026-06-11
 
 params:
-  status: "completed"
+  status: "active"
   preview: "A reproducible behavioral and computational analysis of cognitive interference in the Stroop task using open behavioral data."
   research_question: "How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?"
   method_keywords: "Behavioral Analysis, Cognitive Modeling, Statistical Inference"

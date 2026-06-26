@@ -6,31 +6,43 @@
 
   {{ range .Pages.ByDate }}
 
-  <div class="project-card">
+  <article class="card">
 
-    <h2>
+    <h2 class="card-title">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h2>
 
-    <p>{{ .Date.Format "January 2006" }}</p>
+    <p class="card-meta">
+      {{ .Date.Format "January 2006" }}
+    </p>
 
     {{ with .Params.preview }}
-      <p><strong>Preview:</strong> {{ . }}</p>
+      <p class="card-preview">
+        {{ . }}
+      </p>
     {{ end }}
 
     {{ with .Params.status }}
-      <p><strong>Status:</strong> {{ . }}</p>
+      <p class="card-meta">
+        Status: {{ . }}
+      </p>
     {{ end }}
 
     {{ with .Params.research_question }}
-      <p><strong>Research Question:</strong> {{ . }}</p>
+      <div class="metadata">
+        <strong>Research Question</strong>
+        <p>{{ . }}</p>
+      </div>
     {{ end }}
 
     {{ with .Params.method_keywords }}
-      <p><strong>Method keywords:</strong> {{ . }}</p>
+      <div class="metadata">
+        <strong>Methods</strong>
+        <p>{{ . }}</p>
+      </div>
     {{ end }}
 
-  </div>
+  </article>
 
   {{ end }}
 

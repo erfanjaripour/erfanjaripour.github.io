@@ -4,25 +4,25 @@
 
 {{ range .Pages.ByDate }}
 
-<div class="publication-list">
+<article class="publication-item">
 
   {{ with .Params.authors_year }}
-  <p>{{ . }}</p>
+  <p class="card-meta">{{ . }}</p>
   {{ end }}  
 
-  <a href="{{ .RelPermalink }}">
-    <strong>{{ .Title }}</strong>
-  </a>
+  <h2 class="card-title">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h2>
 
   {{ with .Params.venue }}
-  <p>{{ . }}</p>
+  <p class="card-meta">{{ . }}</p>
   {{ end }}
 
   {{ with .Params.status }}
-  <p>{{ . }}</p>
+  <p class="card-meta">Status: {{ . }}</p>
   {{ end }}
 
-</div>
+</article>
 
 {{ end }}
 

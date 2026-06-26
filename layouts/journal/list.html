@@ -4,19 +4,21 @@
 
 {{ range .Pages.ByDate.Reverse }}
 
-<div class="journal-card">
+<article class="journal-card">
 
-  <a href="{{ .RelPermalink }}">
-    <strong>{{ .Date.Format "2006-01-02" }}</strong>
-  </a>
+  <p class="card-meta">
+    <a href="{{ .RelPermalink }}">
+      {{ .Date.Format "2 January 2006" }}
+    </a>
+  </p>
 
   {{ with .Params.preview }}
-    <p class="journal-preview">
+    <p class="card-preview">
       {{ . }}
     </p>
   {{ end }}
 
-</div>
+</article>
 
 {{ end }}
 

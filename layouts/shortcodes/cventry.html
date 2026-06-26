@@ -1,11 +1,13 @@
-<div class="cv-entry">
-  <div class="cv-entry-head">
-    <div class="cv-entry-title">
-      {{ .Inner | markdownify }}
-    </div>
+<article class="cv-entry">
+    <header class="cv-entry-head">
 
-    <div class="cv-entry-date">
-      {{ .Get "date" }}
-    </div>
-  </div>
-</div>
+        <div class="cv-entry-title">
+            {{ .Inner | markdownify }}
+        </div>
+
+        <time class="cv-entry-date">
+            {{ .Get "date" }}
+        </time>
+
+    </header>
+</article>

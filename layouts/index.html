@@ -18,8 +18,8 @@
   {{ range where .Site.RegularPages "Section" "research" }}
     {{ if eq .Params.status "active" }}
 
-      <div class="project-card">
-        <h3>
+      <div class="card">
+        <h3 class="card-title">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h3>
 
@@ -49,14 +49,16 @@
 
   {{ range first 5 (where site.RegularPages "Type" "journal") }}
 
-    <div class="journal-card">
+    <div class="card">
 
       <a href="{{ .RelPermalink }}">
-        <strong>{{ .Date.Format "2006-01-02" }}</strong>
+        <p class="card-meta">
+          {{ .Date.Format "January 2006" }}
+        </p>
       </a>
 
       {{ with .Params.preview }}
-        <p class="journal-preview">
+        <p class="card-preview">
           {{ . }}
         </p>
       {{ end }}

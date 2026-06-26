@@ -2,30 +2,41 @@
 
 <article class="project-page">
 
-  <h1>{{ .Title }}</h1>
+  <header class="page-header">
 
-  <p class="journal-date">
-    {{ .Date.Format "2 Jan 2006" }}
-  </p>
+    <h1>{{ .Title }}</h1>
 
-  {{ with .Params.status }}
-    <p class="status">
-      Status: {{ . }}
-    </p>
-  {{ end }}
+    <div class="page-meta">
 
-  {{ with .Params.publication_url }}
-  <p>
-    Publication:
-    <a href="{{ . }}" target="_blank" rel="noopener">
-      {{ $.Params.publication_title }}
-    </a>
-  </p>
-  {{ end }}
+      <span>{{ .Date.Format "2 January 2006" }}</span>
+
+      {{ with .Params.status }}
+        <span>• Status: {{ . }}</span>
+      {{ end }}
+
+    </div>
+
+    {{ with .Params.publication_url }}
+      <div class="page-links">
+
+        <strong>Publication</strong>
+
+        <p>
+          <a href="{{ . }}">
+            {{ $.Params.publication_title }}
+          </a>
+        </p>
+
+      </div>
+    {{ end }}
+
+  </header>
 
   <hr>
 
-  {{ .Content }}
+  <div class="page-content">
+    {{ .Content }}
+  </div>
 
 </article>
 
