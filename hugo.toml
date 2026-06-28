@@ -6,10 +6,17 @@ theme = "PaperMod"
 [params]
   customCSS = ["css/extended/custom.css"]
 
-  field = "Computational Cognitive Science / Psychology"
-  location = "Baku, Azerbaijan"
+  field = "Computational Cognitive Science"
+  location = "Tehran, Iran"
   current_focus = "Working on cognitive interference and task-switching mechanisms"
   research_statement = "Investigating computational and experimental models of cognitive control, with emphasis on interference, attention, and decision dynamics."
+
+  research_interests = [
+    "Memory",
+    "Learning",
+    "Language",
+    "Computational Modeling"
+  ]
 
   research_questions = [
     "How does interference scale with cognitive load?",
@@ -17,10 +24,10 @@ theme = "PaperMod"
     "How stable are individual differences in Stroop interference?"
   ]
 
-  email = "your@email.com"
-  github = "https://github.com/yourname"
-  psyarxiv = "https://psyarxiv.com/xxxx"
-  orcid = "https://orcid.org/0000-0000-0000-0000"
+  email = "erfanjaripour@email.com"
+  github = "https://github.com/erfanjaripour"
+  psyarxiv = "https://osf.io/j2ws4/"
+  orcid = "https://orcid.org/0009-0009-3229-4721"
 
 
 [menu]

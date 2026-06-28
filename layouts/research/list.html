@@ -1,50 +1,50 @@
 {{ define "main" }}
 
-<h1>Research</h1>
+<header class="page-header">
 
-<div class="projects">
+  <h1>Research</h1>
 
-  {{ range .Pages.ByDate }}
+  <p class="page-intro">
+    Research projects investigating computational models of memory, learning, and cognitive control through behavioral analysis, statistical inference, and computational modeling.
+  </p>
 
-  <article class="card">
+</header>
+
+<div class="project-list">
+
+{{ range .Pages.ByDate.Reverse }}
+
+<a class="project-link" href="{{ .RelPermalink }}">
+
+<article class="block">
 
     <h2 class="card-title">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ .Title }}
     </h2>
 
     <p class="card-meta">
-      {{ .Date.Format "January 2006" }}
+        {{ .Params.status }}
     </p>
 
-    {{ with .Params.preview }}
-      <p class="card-preview">
-        {{ . }}
-      </p>
-    {{ end }}
+    <p class="card-preview">
+        {{ .Params.preview }}
+    </p>
 
-    {{ with .Params.status }}
-      <p class="card-meta">
-        Status: {{ . }}
-      </p>
-    {{ end }}
-
-    {{ with .Params.research_question }}
-      <div class="metadata">
+    <div class="metadata">
         <strong>Research Question</strong>
-        <p>{{ . }}</p>
-      </div>
-    {{ end }}
+        <p>{{ .Params.research_question }}</p>
+    </div>
 
-    {{ with .Params.method_keywords }}
-      <div class="metadata">
+    <div class="metadata">
         <strong>Methods</strong>
-        <p>{{ . }}</p>
-      </div>
-    {{ end }}
+        <p>{{ .Params.method_keywords }}</p>
+    </div>
 
-  </article>
+</article>
 
-  {{ end }}
+</a>
+
+{{ end }}
 
 </div>
 

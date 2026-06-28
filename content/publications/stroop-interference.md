@@ -1,9 +1,9 @@
 ---
 title: "Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis"
 date: "2026-06-11"
-authors: "Erfan Jaripour"
+authors: "Jaripour, E."
 year: "2026"
-venue: "PsyArXiv Preprint"
+venue: "PsyArXiv"
 status: "Preprint"
 project_title: "Stroop Interference: A Behavioral and Computational Analysis"
 project_url: "/research/stroop-interference/"

@@ -1,25 +1,43 @@
 {{ define "main" }}
 
+<header class="page-header">
+
 <h1>Research Journal</h1>
+
+<p class="page-intro">
+Research notes documenting observations, methodological decisions, technical challenges, and insights throughout ongoing research projects.
+</p>
+
+</header>
+
+<div class="stack">
 
 {{ range .Pages.ByDate.Reverse }}
 
-<article class="journal-card">
+<a class="list-link" href="{{ .RelPermalink }}">
 
-  <p class="card-meta">
-    <a href="{{ .RelPermalink }}">
-      {{ .Date.Format "2 January 2006" }}
-    </a>
-  </p>
+    <article class="list-item">
 
-  {{ with .Params.preview }}
-    <p class="card-preview">
-      {{ . }}
-    </p>
-  {{ end }}
+        <p class="card-meta">
+            {{ .Date.Format "2 January 2006" }}
+        </p>
 
-</article>
+        {{ with .Params.preview }}
+        <p class="card-preview">
+            {{ . }}
+        </p>
+        {{ end }}
+
+        <p class="card-action">
+          Read Note →
+        </p>
+
+    </article>
+
+</a>
 
 {{ end }}
+
+</div>
 
 {{ end }}

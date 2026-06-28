@@ -1,29 +1,38 @@
 {{ define "main" }}
 
+<header class="page-header">
+
 <h1>Publications</h1>
 
-{{ range .Pages.ByDate }}
+<p class="page-intro">
+Publications, preprints, and other scholarly outputs related to my research.
+</p>
 
-<article class="publication-item">
+</header>
 
-  {{ with .Params.authors_year }}
-  <p class="card-meta">{{ . }}</p>
-  {{ end }}  
+<div class="publication-list">
 
-  <h2 class="card-title">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h2>
+{{ range .Pages.ByDate.Reverse }}
 
-  {{ with .Params.venue }}
-  <p class="card-meta">{{ . }}</p>
-  {{ end }}
+<p class="publication-citation">
 
-  {{ with .Params.status }}
-  <p class="card-meta">Status: {{ . }}</p>
-  {{ end }}
+  <a class="publication-link" href="{{ .RelPermalink }}">
 
-</article>
+    {{ .Params.authors }}
+    ({{ .Params.year }}).
+
+    <span class="publication-title">
+      {{ .Title }}.
+    </span>
+
+    {{ .Params.venue }}
+
+  </a>
+
+</p>
 
 {{ end }}
+
+</div>
 
 {{ end }}

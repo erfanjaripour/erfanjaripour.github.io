@@ -1,86 +1,136 @@
 {{ define "main" }}
 
-
 <section class="identity">
 
-  <p><strong>Field:</strong> {{ .Site.Params.field }}</p>
-  <p><strong>Location:</strong> {{ .Site.Params.location }}</p>
+  <p class="card-meta">
+    {{ .Site.Params.field }} · {{ .Site.Params.location }}
+  </p>
 
   <p>{{ .Site.Params.current_focus }}</p>
+
   <p>{{ .Site.Params.research_statement }}</p>
+
+<h3>Research Interests</h3>
+
+  <ul class="list">
+
+    {{ range .Site.Params.research_interests }}
+
+    <li>{{ . }}</li>
+
+    {{ end }}
+
+  </ul>
+
 </section>
 
 
-
 <section class="projects">
+
   <h2>Active Projects</h2>
 
-  {{ range where .Site.RegularPages "Section" "research" }}
-    {{ if eq .Params.status "active" }}
+  <div class="stack">
 
-      <div class="card">
+  {{ range where .Site.RegularPages "Section" "research" }}
+  {{ if eq .Params.status "active" }}
+
+  <a class="card-link" href="{{ .RelPermalink }}">
+
+      <article class="card">
+
         <h3 class="card-title">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ .Title }}
         </h3>
 
-        <p>{{ .Params.research_question }}</p>
-      </div>
+        <p class="card-meta">
+          {{ .Date.Format "January 2006" }} · {{ .Params.status }}
+        </p>
 
-    {{ end }}
+        <p class="card-preview">
+          {{ .Params.preview }}
+        </p>
+
+        <p class="card-action">
+          View Project →
+        </p>
+
+      </article>
+
+  </a>
+
   {{ end }}
+  {{ end }}
+
+  </div>
 
 </section>
 
 
 <section class="questions">
+
   <h2>Current Research Questions</h2>
 
-  <ul>
+  <ul class="list">
+
     {{ range .Site.Params.research_questions }}
-      <li>{{ . }}</li>
+
+    <li>{{ . }}</li>
+
     {{ end }}
+
   </ul>
 
 </section>
 
 
 <section class="journal">
+
   <h2>Latest Journal Entries</h2>
+
+  <div class="stack">
 
   {{ range first 5 (where site.RegularPages "Type" "journal") }}
 
-    <div class="card">
+  <a class="card-link" href="{{ .RelPermalink }}">
 
-      <a href="{{ .RelPermalink }}">
+      <article class="card">
+
         <p class="card-meta">
           {{ .Date.Format "January 2006" }}
         </p>
-      </a>
 
-      {{ with .Params.preview }}
         <p class="card-preview">
-          {{ . }}
+          {{ .Params.preview }}
         </p>
-      {{ end }}
 
-    </div>
+        <p class="card-action">
+          Read Note →
+        </p>
+
+      </article>
+
+  </a>
 
   {{ end }}
+
+  </div>
 
 </section>
 
 
 <section class="contact">
+
   <h2>Contact</h2>
 
   <p>
+
     <a href="mailto:{{ .Site.Params.email }}">Email</a> ·
     <a href="{{ .Site.Params.github }}">GitHub</a> ·
     <a href="{{ .Site.Params.psyarxiv }}">PsyArXiv</a> ·
     <a href="{{ .Site.Params.orcid }}">ORCID</a>
+
   </p>
 
 </section>
-
 
 {{ end }}

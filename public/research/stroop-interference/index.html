@@ -13,7 +13,7 @@ Research Question
 How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/research/stroop-interference/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b437b40bb122fc6bbaeaadee6d24bd80bfeef3ff15fd23a50e2ed75adc9a597d.css" integrity="sha256-tDe0C7Ei/Gu66q3ubSS9gL/u8/8V/SOlDi7XWtyaWX0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.17a6a4eb1a664353bbaff2f996b1fd3394450cec4fd858210fb44d795ee9c10a.css" integrity="sha256-F6ak6xpmQ1O7r/L5lrH9M5RFDOxP2FghD7RNeV7pwQo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -69,7 +69,8 @@ How does cognitive interference influence reaction time and accuracy during Stro
 
 </script>
 </head>
-<body id="top">
+
+<body class="list" id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -133,48 +134,25 @@ How does cognitive interference influence reaction time and accuracy during Stro
 </header>
 <main class="main">
 
-<article class="project-page">
-
-  <header class="page-header">
-
-    <h1>Stroop Interference: A Behavioral and Computational Analysis</h1>
-
-    <div class="page-meta">
-
-      <span>11 June 2026</span>
-
-      
-        <span>• Status: active</span>
-      
-
-    </div>
-
+<article class="post-single">
+  <header class="post-header">
     
-      <div class="page-links">
+    <h1 class="post-title entry-hint-parent">
+      Stroop Interference: A Behavioral and Computational Analysis
+    </h1>
+    <div class="post-meta">
 
-        <strong>Publication</strong>
+<span title='2026-06-11 00:00:00 +0000 UTC'>June 11, 2026</span>
 
-        <p>
-          <a href="/publications/stroop-interference/">
-            Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis
-          </a>
-        </p>
-
-      </div>
-    
-
-  </header>
-
-  <hr>
-
-  <div class="page-content">
-    <h2 id="overview">Overview</h2>
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
 <p>This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.</p>
-<h2 id="research-question">Research Question</h2>
+<h2 id="research-question">Research Question<a hidden class="anchor" aria-hidden="true" href="#research-question">#</a></h2>
 <p>How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?</p>
-<h2 id="theoretical-background">Theoretical Background</h2>
+<h2 id="theoretical-background">Theoretical Background<a hidden class="anchor" aria-hidden="true" href="#theoretical-background">#</a></h2>
 <p>The Stroop effect is a classic demonstration of cognitive interference, occurring when an automatically processed stimulus dimension conflicts with a task-relevant response dimension. The resulting performance cost has been interpreted through theories of automaticity, selective attention, response conflict, and cognitive control. This project examines the phenomenon from a behavioral and computational perspective, emphasizing reproducible measurement and model-based explanation.</p>
-<h2 id="dataset">Dataset</h2>
+<h2 id="dataset">Dataset<a hidden class="anchor" aria-hidden="true" href="#dataset">#</a></h2>
 <p><strong>Source:</strong> Open Science Framework (OSF)</p>
 <p><strong>Participants:</strong> 81 participants across 85 sessions</p>
 <p><strong>Task:</strong> Computerized Stroop task with congruent, neutral, and incongruent conditions</p>
@@ -186,9 +164,9 @@ How does cognitive interference influence reaction time and accuracy during Stro
 <li>Resolution of participant-session identifiers</li>
 <li>Participant-level aggregation for inferential analyses</li>
 </ul>
-<h2 id="methods">Methods</h2>
+<h2 id="methods">Methods<a hidden class="anchor" aria-hidden="true" href="#methods">#</a></h2>
 <p>The analysis pipeline included data cleaning, quality control, descriptive statistics, and inferential testing. Stroop interference was quantified as the participant-level difference between incongruent and congruent reaction times. Statistical analyses included paired-samples t-tests, effect-size estimation, confidence intervals, and assumption diagnostics. A simple additive computational model was implemented to evaluate whether condition-level behavioral patterns could be reproduced through a baseline-plus-interference framework.</p>
-<h2 id="key-findings">Key Findings</h2>
+<h2 id="key-findings">Key Findings<a hidden class="anchor" aria-hidden="true" href="#key-findings">#</a></h2>
 <ul>
 <li>Reaction times increased systematically from congruent to neutral to incongruent conditions.</li>
 <li>Mean Stroop interference effect: <strong>106.3 ms</strong></li>
@@ -198,36 +176,39 @@ How does cognitive interference influence reaction time and accuracy during Stro
 <li>Substantial individual differences were observed.</li>
 <li>The computational model reproduced the primary condition-level reaction-time pattern.</li>
 </ul>
-<h2 id="figures">Figures</h2>
-<h3 id="figure-1-reaction-time-distribution-by-condition">Figure 1. Reaction Time Distribution by Condition</h3>
+<h2 id="figures">Figures<a hidden class="anchor" aria-hidden="true" href="#figures">#</a></h2>
+<h3 id="figure-1-reaction-time-distribution-by-condition">Figure 1. Reaction Time Distribution by Condition<a hidden class="anchor" aria-hidden="true" href="#figure-1-reaction-time-distribution-by-condition">#</a></h3>
 <p><img alt="Reaction Time Distribution" loading="lazy" src="/research/stroop-interference/figures/rt-by-condition.png"></p>
-<h3 id="figure-2-distribution-of-participant-level-stroop-effects">Figure 2. Distribution of Participant-Level Stroop Effects</h3>
+<h3 id="figure-2-distribution-of-participant-level-stroop-effects">Figure 2. Distribution of Participant-Level Stroop Effects<a hidden class="anchor" aria-hidden="true" href="#figure-2-distribution-of-participant-level-stroop-effects">#</a></h3>
 <p><img alt="Stroop Effect Distribution" loading="lazy" src="/research/stroop-interference/figures/distribution-stroop-effects.png"></p>
-<h3 id="figure-3-baseline-processing-speed-and-stroop-interference">Figure 3. Baseline Processing Speed and Stroop Interference</h3>
+<h3 id="figure-3-baseline-processing-speed-and-stroop-interference">Figure 3. Baseline Processing Speed and Stroop Interference<a hidden class="anchor" aria-hidden="true" href="#figure-3-baseline-processing-speed-and-stroop-interference">#</a></h3>
 <p><img alt="Baseline vs Effect" loading="lazy" src="/research/stroop-interference/figures/baseline-vs-effect.png"></p>
-<h3 id="figure-4-empirical-data-versus-computational-model">Figure 4. Empirical Data Versus Computational Model</h3>
+<h3 id="figure-4-empirical-data-versus-computational-model">Figure 4. Empirical Data Versus Computational Model<a hidden class="anchor" aria-hidden="true" href="#figure-4-empirical-data-versus-computational-model">#</a></h3>
 <p><img alt="Model Comparison" loading="lazy" src="/research/stroop-interference/figures/model-vs-data.png"></p>
-<h2 id="discussion">Discussion</h2>
+<h2 id="discussion">Discussion<a hidden class="anchor" aria-hidden="true" href="#discussion">#</a></h2>
 <p>The findings provide strong evidence for cognitive interference during Stroop-task performance. Participants exhibited slower responses under interference conditions while maintaining high levels of accuracy, suggesting that conflict primarily affected response latency. Considerable individual variability was observed, and the computational analysis demonstrated that a simple additive interference mechanism captures the major features of the observed behavioral pattern.</p>
-<h2 id="limitations">Limitations</h2>
+<h2 id="limitations">Limitations<a hidden class="anchor" aria-hidden="true" href="#limitations">#</a></h2>
 <ul>
 <li>Reliance on an existing open dataset limits experimental control.</li>
 <li>Behavioral measures provide indirect evidence regarding cognitive mechanisms.</li>
 <li>The analyses cannot distinguish among competing theoretical accounts of interference.</li>
 <li>The computational model is descriptive rather than mechanistic.</li>
 </ul>
-<h2 id="next-steps">Next Steps</h2>
+<h2 id="next-steps">Next Steps<a hidden class="anchor" aria-hidden="true" href="#next-steps">#</a></h2>
 <p>Future work will extend this framework through Bayesian and hierarchical modeling approaches, allowing more flexible characterization of uncertainty, individual differences, and reaction-time distributions. Additional directions include application to broader cognitive-control paradigms and formal comparison of competing theoretical models.</p>
-<h2 id="resources-and-outputs">Resources and Outputs</h2>
+<h2 id="resources-and-outputs">Resources and Outputs<a hidden class="anchor" aria-hidden="true" href="#resources-and-outputs">#</a></h2>
 <p><strong>Repository:</strong> <a href="https://github.com/erfanjaripour/stroop-interference">Stroop Interference GitHub Repository</a></p>
 <p><strong>Preprint:</strong> <a href="https://osf.io/j2ws4/">Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis</a></p>
 <p><strong>Dataset:</strong> <a href="https://osf.io/kxpqu/overview">Open Stroop Task Dataset (OSF)</a></p>
 
+
   </div>
 
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
-
-
     </main>
     
 <footer class="footer">

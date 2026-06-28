@@ -13,9 +13,7 @@
       <link>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
-      <description>&lt;h4 id=&#34;situation&#34;&gt;Situation&lt;/h4&gt;
-&lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
+      <description>&lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
 &lt;p&gt;I reviewed every section multiple times to standardize the writing style and refine the organization of sections and subsections. I also verified references and ensured that every figure, table, and citation was correctly linked. I rechecked and removed repeated information to improve clarity and flow.&lt;/p&gt;</description>
     </item>
     <item>
@@ -23,9 +21,7 @@
       <link>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
-      <description>&lt;h4 id=&#34;situation&#34;&gt;Situation&lt;/h4&gt;
-&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
-&lt;h4 id=&#34;data&#34;&gt;Data&lt;/h4&gt;
+      <description>&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
 &lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
   </channel>
