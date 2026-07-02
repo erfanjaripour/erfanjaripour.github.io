@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Publications on Erfan Jaripour</title>
-    <link>http://localhost:56736/publications/</link>
+    <link>http://localhost:1313/publications/</link>
     <description>Recent content in Publications on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:56736/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis</title>
-      <link>http://localhost:56736/publications/stroop-interference/</link>
+      <link>http://localhost:1313/publications/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56736/publications/stroop-interference/</guid>
+      <guid>http://localhost:1313/publications/stroop-interference/</guid>
       <description>&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
 &lt;p&gt;Jaripour, E. (2026). Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis. PsyArXiv Preprint.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;

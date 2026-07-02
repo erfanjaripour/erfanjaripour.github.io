@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Research Journal on Erfan Jaripour</title>
-    <link>http://localhost:56736/journal/</link>
+    <link>http://localhost:1313/journal/</link>
     <description>Recent content in Research Journal on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:56736/journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preparing The Preprint</title>
-      <link>http://localhost:56736/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
+      <link>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56736/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
+      <guid>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Open Data Challage</title>
-      <link>http://localhost:56736/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
+      <link>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56736/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
+      <guid>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
 &lt;!-- Data --&gt;

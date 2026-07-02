@@ -10,7 +10,7 @@
 <meta name="description" content="Curriculum Vitae - Erfan Jaripour">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/cv/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7afa4c3d0db8c4e15e6a292c712e61985fd8dd42814323db43a013ad0851abd4.css" integrity="sha256-evpMPQ24xOFeaikscS5hmF/Y3UKBQyPbQ6ATrQhRq9Q=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.0e602f99315fed4cda6fdb3ae5f275cfa2e7231ce3d072906bc90a7cce345d47.css" integrity="sha256-DmAvmTFf7Uzab9s65fJ1z6LnIxzj0HKQa8kKfM40XUc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -70,7 +70,7 @@
 
 <body class="list" id="top">
     <header class="header">
-    <nav class="header-nav">
+    <nav class="header-nav mobile-nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Erfan Jaripour (Alt + H)">Erfan Jaripour</a>
             <div class="logo-switches">
@@ -96,38 +96,89 @@
                 </button>
             </div>
         </div>
-        <ul id="menu" class="menu">
-            <li>
-                <a href="http://localhost:1313/" title="Home">
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/research/" title="Research">
-                    <span>Research</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/publications/" title="Publications">
-                    <span>Publications</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/journal/" title="Research Journal">
-                    <span>Research Journal</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/cv/" title="CV">
-                    <span class="active">CV</span>
-                </a>
-            </li>
-        </ul>
+
+<button type="button"
+        class="menu-toggle"
+        aria-label="Menu"
+        aria-expanded="false">
+    <span class="icon"></span>
+</button>
+
+    <ul id="menu" class="menu">
+        <li>
+            <a href="http://localhost:1313/"
+               title="Home">
+                <span >
+                    Home
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://localhost:1313/research/"
+               title="Research">
+                <span >
+                    Research
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://localhost:1313/publications/"
+               title="Publications">
+                <span >
+                    Publications
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://localhost:1313/journal/"
+               title="Research Journal">
+                <span >
+                    Research Journal
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://localhost:1313/about/"
+               title="About">
+                <span >
+                    About
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+        <li>
+            <a href="http://localhost:1313/cv/"
+               title="CV">
+                <span class="active">
+                    CV
+                </span>
+
+                
+
+            </a>
+        </li>
+        
+    </ul>
+
     </nav>
 </header>
 <main class="main">
@@ -167,7 +218,7 @@
         <div class="cv-entry-head">
 
             <div class="cv-entry-title">
-                <strong>Bachelor of Psychology</strong>,
+                <strong>B.Sc. in Psychology</strong>,
                  Islamic Azad University, Tehran, Iran
             </div>
 
@@ -177,7 +228,7 @@
 
         </div>
 
-        <p>GPA: 19.55/20 (approximately 3.9/4.0)</p>
+        <p class="half-flow">GPA: 19.55/20 (approximately 3.9/4.0)</p>
 
         <p class="half-flow"><strong>Thesis:</strong> Relationship Between Psychological Disorders and Defense Mechanisms in Adolescents</p>
 
@@ -356,6 +407,8 @@
     })
 
 </script>
+
+<script src="/js/menu.js"></script>
 </body>
 
 </html>

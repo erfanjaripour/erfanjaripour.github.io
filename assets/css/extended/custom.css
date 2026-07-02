@@ -32,47 +32,36 @@
 /* ---------- Layout ---------- */
 
 .menu .active{
-
     font-weight: inherit;
-
 }
 
-main{
-
+.main{
+    width:100%;
     max-width:var(--content-width);
-
+    margin:0 auto;
+    padding:0 var(--space-3);
+    box-sizing:border-box;
 }
 
-.post-single{
-
-    padding:0;
-
-}
-
+.post-single,
 .post-content{
-
     padding:0;
-
 }
 
 section{
-
     margin-bottom:var(--space-6);
-
 }
 
 section:last-child{
-
     margin-bottom:0;
-
 }
 
 .home section{
-    margin-bottom: var(--space-7);
+    margin-bottom:var(--space-7);
 }
 
 .home section:last-child{
-    margin-bottom: 0;
+    margin-bottom:0;
 }
 
 /* ---------- Typography ---------- */
@@ -425,8 +414,201 @@ a.inline-link:hover {
 
     flex-shrink:0;
 
+    font-size:var(--meta-size);
+
+    font-weight:500;
+
     color:var(--secondary);
 
     white-space:nowrap;
 
+}
+
+@media (max-width:768px){
+
+    .cv-entry-head{
+        display:block;
+    }
+
+    .cv-entry-date{
+        display:block;
+        margin-top:var(--space-1);
+        white-space:normal;
+    }
+
+}
+
+
+/* ---------- MOBILE NAVIGATION ---------- */
+
+.menu-toggle{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .header-nav{
+        position:relative;
+        z-index:1000;
+    }
+
+    /* ===== TOGGLE BUTTON ===== */
+
+    .menu-toggle{
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        position:absolute;
+        top:50%;
+        right:0;
+
+        transform:translateY(-50%);
+
+        width:44px;
+        height:44px;
+
+        padding:0;
+        margin:0;
+
+        background:transparent;
+        border:none;
+
+        cursor:pointer;
+
+        color:inherit;
+
+        z-index:5000; /* CRITICAL: always above menu */
+
+        font-size:0;
+        line-height:0;
+
+        -webkit-tap-highlight-color:transparent;
+        user-select:none;
+    }
+
+    /* ICON */
+    .menu-toggle .icon{
+        position:relative;
+        width:22px;
+        height:2px;
+        background:currentColor;
+        transition:0.2s ease;
+    }
+
+    .menu-toggle .icon::before,
+    .menu-toggle .icon::after{
+        content:"";
+        position:absolute;
+        left:0;
+        width:22px;
+        height:2px;
+        background:currentColor;
+        transition:transform 0.2s ease, top 0.2s ease;
+    }
+
+    .menu-toggle .icon::before{
+        top:-7px;
+    }
+
+    .menu-toggle .icon::after{
+        top:7px;
+    }
+
+    /* OPEN → X */
+    .menu-toggle.open .icon{
+        background:transparent;
+    }
+
+    .menu-toggle.open .icon::before{
+        top:0;
+        transform:rotate(45deg);
+    }
+
+    .menu-toggle.open .icon::after{
+        top:0;
+        transform:rotate(-45deg);
+    }
+
+    /* FIX POSITION WHEN MENU OPEN */
+body.menu-open .menu-toggle{
+    position:fixed;
+    top:8.5px;
+    right:0px;
+    transform:none;
+    z-index:6000;
+}
+
+    /* ===== MENU PANEL ===== */
+
+    .menu{
+
+        position:fixed;
+        top:0;
+        right:0;
+
+        width:240px;
+        height:100vh;
+
+        margin:0;
+        padding:64px 0 20px;
+
+        display:flex;
+        flex-direction:column;
+
+        background:color-mix(in srgb, var(--entry) 82%, black);
+
+        border-left:1px solid var(--border);
+
+        box-shadow:-10px 0 30px rgba(0,0,0,.25);
+
+        overflow-y:auto;
+
+        opacity:0;
+        visibility:hidden;
+        pointer-events:none;
+
+        transform:translateX(18px);
+
+        transition:
+            transform 200ms ease,
+            opacity 180ms ease,
+            visibility 180ms;
+
+        z-index:4000; /* BELOW BUTTON, ABOVE CONTENT */
+    }
+
+    .menu.open{
+        opacity:1;
+        visibility:visible;
+        pointer-events:auto;
+        transform:translateX(0);
+    }
+
+    .menu li{
+        width:100%;
+    }
+
+    .menu a{
+        display:block;
+        padding:6px 20px;
+        font-size:15px;
+        line-height:1.3;
+    }
+
+    .menu a:hover{
+        background:rgba(255,255,255,0.05);
+    }
+}
+
+.menu.no-transition,
+.menu.no-transition *{
+    transition:none !important;
+}
+
+/* ---------- GLOBAL ---------- */
+
+body{
+    padding:0 !important;
 }
