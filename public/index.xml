@@ -2,80 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Erfan Jaripour</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:56736/</link>
     <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56736/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preparing The Preprint</title>
-      <link>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
+      <link>http://localhost:56736/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
-      <description>&lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
+      <guid>http://localhost:56736/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
+&lt;!-- Data --&gt;
 &lt;p&gt;I reviewed every section multiple times to standardize the writing style and refine the organization of sections and subsections. I also verified references and ensured that every figure, table, and citation was correctly linked. I rechecked and removed repeated information to improve clarity and flow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Data Challage</title>
-      <link>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
+      <link>http://localhost:56736/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
-      <description>&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
+      <guid>http://localhost:56736/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
+&lt;!-- Data --&gt;
 &lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis</title>
-      <link>http://localhost:1313/publications/stroop-interference/</link>
+      <link>http://localhost:56736/publications/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/stroop-interference/</guid>
-      <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+      <guid>http://localhost:56736/publications/stroop-interference/</guid>
+      <description>&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
 &lt;p&gt;Jaripour, E. (2026). Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis. PsyArXiv Preprint.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;The Stroop task is a classic paradigm for studying cognitive interference, selective attention, and response competition. By analyzing behavioral data from 81 participants, this study examined how congruent, incongruent, and neutral conditions affect reaction time and accuracy. The dataset contained trial-level responses from a publicly available Stroop experiment. In the preprocess, probe trials, invalid reaction times, and extreme values were removed. In addition, the participant–session structure in the raw files was resolved. The results showed a robust Stroop interference effect. The fastest reaction times were in the congruent condition, and the slowest in the incongruent condition. The neutral condition contained intermediate performances. The mean interference effect is defined as the difference in reaction time between incongruent and congruent trials. It was 106 ms. A paired-samples t-test confirmed a significant difference between incongruent and congruent conditions, with t(80) = 17.77, p &amp;lt; .001, and a large effect size (dz = 1.97). It showed strong interference at the group level. Accuracy remained high across conditions, with little evidence of a speed–accuracy trade-off. Assumption checks supported the use of parametric analysis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stroop Interference: A Behavioral and Computational Analysis</title>
-      <link>http://localhost:1313/research/stroop-interference/</link>
+      <link>http://localhost:56736/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/stroop-interference/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+      <guid>http://localhost:56736/research/stroop-interference/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.&lt;/p&gt;
-&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
+&lt;h3 id=&#34;research-question&#34;&gt;Research Question&lt;/h3&gt;
 &lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;My name is Erfan Jaripour. I am a computational cognitive psychology researcher. My focus is on memory, learning, and language-related mechanisms in human cognition. My work combines behavioral analysis, statistical modeling, and computational approaches. It addresses my desire to understand the core cognitive mechanisms. I select to study how cognitive processes are structured, how they interact, and why they sometimes fail under conflict, load, or interference.&lt;/p&gt;
-&lt;p&gt;My research orientation is based on mechanisms rather than descriptions. I am most interested in questions that ask not only what people do, but why they do it and what internal process could produce that behavior. I am especially drawn to problems where cognition can be studied at the intersection of representation, limitation, and change over time. My interests include memory storage and interference, learning dynamics, and the role of memory constraints in language processing. I prefer empirical research with theoretical coherence and computational explanatory potential.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;p&gt;This page provides a summary of my academic background, research experience, and technical expertise. A complete curriculum vitae is available as a PDF.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/erfanjaripour-cv.pdf&#34;&gt;Download CV PDF&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;research-summary&#34;&gt;Research Summary&lt;/h2&gt;
-&lt;p&gt;Computational cognitive science researcher focused on cognitive control, working memory, learning, and adaptive behavior in human cognition. My work combines trial-level behavioral analysis, statistical modeling, and reproducible Python-based workflows to study interference, decision processes, and individual differences.&lt;/p&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;article class=&#34;cv-entry&#34;&gt;
-    &lt;header class=&#34;cv-entry-head&#34;&gt;
-
-        &lt;div class=&#34;cv-entry-title&#34;&gt;
-            &lt;strong&gt;Bachelor of Psychology&lt;/strong&gt;, Islamic Azad University, Tehran, Iran
-        &lt;/div&gt;
-
-        &lt;time class=&#34;cv-entry-date&#34;&gt;
-            2021–2025
-        &lt;/time&gt;
-
-    &lt;/header&gt;
-&lt;/article&gt;
-&lt;p&gt;GPA: 19.55/20 (approximately 3.9/4.0)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

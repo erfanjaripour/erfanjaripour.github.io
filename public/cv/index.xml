@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cvs on Erfan Jaripour</title>
-    <link>http://localhost:1313/cv/</link>
-    <description>Recent content in Cvs on Erfan Jaripour</description>
+    <title>Curriculum Vitae on Erfan Jaripour</title>
+    <link>http://localhost:56736/cv/</link>
+    <description>Recent content in Curriculum Vitae on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/cv/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/cv/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/cv/</guid>
-      <description>&lt;h2 id=&#34;research-summary&#34;&gt;Research Summary&lt;/h2&gt;
-&lt;p&gt;Computational cognitive science researcher focused on cognitive control, working memory, learning, and adaptive behavior in human cognition. My work combines trial-level behavioral analysis, statistical modeling, and reproducible Python- and R-based workflows to study interference, decision processes, and individual differences.&lt;/p&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;div class=&#34;cv-entry&#34;&gt;
-  &lt;div class=&#34;cv-entry-head&#34;&gt;
-    &lt;div class=&#34;cv-entry-title&#34;&gt;
-      &lt;strong&gt;Bachelor of Psychology&lt;/strong&gt;, Islamic Azad University, Tehran, Iran
-    &lt;/div&gt;
-
-    &lt;div class=&#34;cv-entry-date&#34;&gt;
-      2021–2025
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;GPA: 19.55/20 (approximately 3.9/4.0)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thesis:&lt;/strong&gt; Relationship Between Psychological Disorders and Defense Mechanisms in Adolescents&lt;br&gt;
-&lt;strong&gt;Supervisor:&lt;/strong&gt; Dr. Hamid Reza Vatankhah&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:56736/cv/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

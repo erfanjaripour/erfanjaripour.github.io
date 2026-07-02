@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<header class="page-header">
+<section>
 
 <h1>Publications</h1>
 
@@ -8,15 +8,17 @@
 Publications, preprints, and other scholarly outputs related to my research.
 </p>
 
-</header>
+</section>
 
-<div class="publication-list">
+<section>
+
+<div class="stack flow">
 
 {{ range .Pages.ByDate.Reverse }}
 
 <p class="publication-citation">
 
-  <a class="publication-link" href="{{ .RelPermalink }}">
+  <a class="inline-link" href="{{ .RelPermalink }}">
 
     {{ .Params.authors }}
     ({{ .Params.year }}).
@@ -27,6 +29,8 @@ Publications, preprints, and other scholarly outputs related to my research.
 
     {{ .Params.venue }}
 
+    {{ .Params.status }}.
+
   </a>
 
 </p>
@@ -34,5 +38,7 @@ Publications, preprints, and other scholarly outputs related to my research.
 {{ end }}
 
 </div>
+
+</section>
 
 {{ end }}

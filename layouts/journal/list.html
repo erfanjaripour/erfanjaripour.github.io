@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<header class="page-header">
+<section>
 
 <h1>Research Journal</h1>
 
@@ -8,9 +8,11 @@
 Research notes documenting observations, methodological decisions, technical challenges, and insights throughout ongoing research projects.
 </p>
 
-</header>
+</section>
 
-<div class="stack">
+<section>
+
+<div class="stack flow">
 
 {{ range .Pages.ByDate.Reverse }}
 
@@ -28,8 +30,8 @@ Research notes documenting observations, methodological decisions, technical cha
         </p>
         {{ end }}
 
-        <p class="card-action">
-          Read Note →
+        <p class="card-meta">
+          {{ .Params.project }}
         </p>
 
     </article>
@@ -39,5 +41,7 @@ Research notes documenting observations, methodological decisions, technical cha
 {{ end }}
 
 </div>
+
+</section>
 
 {{ end }}

@@ -1,35 +1,30 @@
 {{ define "main" }}
 
-<section class="identity">
+<main class="home">
+
+<section>
 
   <p class="card-meta">
-    {{ .Site.Params.field }} · {{ .Site.Params.location }}
+    {{ .Params.field }} · {{ .Params.location }}
   </p>
 
-  <p>{{ .Site.Params.current_focus }}</p>
+  <p>{{ .Params.research_statement }}</p>
 
-  <p>{{ .Site.Params.research_statement }}</p>
+<h3 class="flow">Research Interests</h3>
 
-<h3>Research Interests</h3>
-
-  <ul class="list">
-
-    {{ range .Site.Params.research_interests }}
-
-    <li>{{ . }}</li>
-
-    {{ end }}
-
-  </ul>
+    <p class="half-flow">
+      {{ range $i, $item := .Params.research_interests }}
+        {{ if $i }} · {{ end }}{{ $item }}
+      {{ end }}
+    </p>
 
 </section>
 
-
 <section class="projects">
 
-  <h2>Active Projects</h2>
+  <h2>Current Research</h2>
 
-  <div class="stack">
+  <div class="stack flow">
 
   {{ range where .Site.RegularPages "Section" "research" }}
   {{ if eq .Params.status "active" }}
@@ -50,10 +45,6 @@
           {{ .Params.preview }}
         </p>
 
-        <p class="card-action">
-          View Project →
-        </p>
-
       </article>
 
   </a>
@@ -63,16 +54,11 @@
 
   </div>
 
-</section>
+  <h3 class="flow">Current Research Questions</h3>
 
+  <ul class="list flow">
 
-<section class="questions">
-
-  <h2>Current Research Questions</h2>
-
-  <ul class="list">
-
-    {{ range .Site.Params.research_questions }}
+    {{ range .Params.research_questions }}
 
     <li>{{ . }}</li>
 
@@ -87,7 +73,7 @@
 
   <h2>Latest Journal Entries</h2>
 
-  <div class="stack">
+  <div class="stack flow">
 
   {{ range first 5 (where site.RegularPages "Type" "journal") }}
 
@@ -101,10 +87,6 @@
 
         <p class="card-preview">
           {{ .Params.preview }}
-        </p>
-
-        <p class="card-action">
-          Read Note →
         </p>
 
       </article>
@@ -122,15 +104,17 @@
 
   <h2>Contact</h2>
 
-  <p>
+  <p class="flow">
 
-    <a href="mailto:{{ .Site.Params.email }}">Email</a> ·
-    <a href="{{ .Site.Params.github }}">GitHub</a> ·
-    <a href="{{ .Site.Params.psyarxiv }}">PsyArXiv</a> ·
-    <a href="{{ .Site.Params.orcid }}">ORCID</a>
+    <a class="inline-link" href="mailto:{{ .Site.Params.email }}">Email</a> ·
+    <a class="inline-link" href="{{ .Site.Params.github }}">GitHub</a> ·
+    <a class="inline-link" href="{{ .Site.Params.psyarxiv }}">PsyArXiv</a> .
+    <a class="inline-link" href="{{ .Site.Params.orcid }}">ORCID</a>
 
   </p>
 
 </section>
+
+</main>
 
 {{ end }}

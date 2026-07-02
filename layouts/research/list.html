@@ -1,26 +1,30 @@
 {{ define "main" }}
 
-<header class="page-header">
+<section>
 
-  <h1>Research</h1>
+<h1>Research</h1>
 
-  <p class="page-intro">
-    Research projects investigating computational models of memory, learning, and cognitive control through behavioral analysis, statistical inference, and computational modeling.
-  </p>
+<p class="page-intro">
+Research projects investigating computational models of memory, learning, and cognitive control through behavioral analysis, statistical inference, and computational modeling.
+</p>
 
-</header>
+</section>
 
-<div class="project-list">
+<section>
+
+<div class="stack flow">
 
 {{ range .Pages.ByDate.Reverse }}
 
-<a class="project-link" href="{{ .RelPermalink }}">
-
 <article class="block">
+
+    <a class="inline-link" href="{{ .RelPermalink }}">
 
     <h2 class="card-title">
         {{ .Title }}
     </h2>
+
+    </a>
 
     <p class="card-meta">
         {{ .Params.status }}
@@ -30,22 +34,22 @@
         {{ .Params.preview }}
     </p>
 
-    <div class="metadata">
+    <div class="secondary-content">
         <strong>Research Question</strong>
         <p>{{ .Params.research_question }}</p>
     </div>
 
-    <div class="metadata">
+    <div class="secondary-content">
         <strong>Methods</strong>
         <p>{{ .Params.method_keywords }}</p>
     </div>
 
 </article>
 
-</a>
-
 {{ end }}
 
 </div>
+
+</section>
 
 {{ end }}
