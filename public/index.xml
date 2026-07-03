@@ -9,6 +9,16 @@
     <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Managing Python Environment Conflicts</title>
+      <link>http://localhost:1313/journal/computational-training/2026-07-03-python-environment-conflicts/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/computational-training/2026-07-03-python-environment-conflicts/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to produce the results. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. So, I replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Understanding Bayesian Thinking</title>
       <link>http://localhost:1313/journal/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
