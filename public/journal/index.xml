@@ -6,8 +6,18 @@
     <description>Recent content in Research Journal on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Bayesian Thinking</title>
+      <link>http://localhost:1313/journal/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior beliefs are combined with new evidence to produce revised conclusions, while uncertainty remains a part of the process. This approach reminded me of scientific research itself, where conclusions are constantly refined as more evidence becomes available. Although Bayesian inference is only one framework for statistical reasoning, I found its emphasis on evidence-based belief updating closely aligned with how I think scientific investigation should be.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Preparing The Preprint</title>
       <link>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
