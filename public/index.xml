@@ -48,5 +48,15 @@
 &lt;h3 id=&#34;research-question&#34;&gt;Research Question&lt;/h3&gt;
 &lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Computational Cognitive Science Training Portfolio</title>
+      <link>http://localhost:1313/research/computational-training/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/computational-training/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, transparent workflows, and statistical reasoning as preparation for future empirical and computational research.&lt;/p&gt;
+&lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
+&lt;p&gt;The primary objective of this project is to develop the computational and statistical foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

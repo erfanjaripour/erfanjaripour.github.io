@@ -207,7 +207,7 @@ a.inline-link:hover {
     margin-bottom: 0;
 }
 
-/* ---------- Stack & Flow ---------- */
+/* ---------- Stac, Block, Flow ---------- */
 
 .stack{
 
@@ -221,6 +221,35 @@ a.inline-link:hover {
 
 }
 
+.stack-block{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.block{
+
+    padding:var(--space-4) 0;
+
+    border-bottom:var(--border-width) solid var(--border-color);
+
+}
+
+.block:first-child{
+
+    padding-top:0;
+
+}
+
+.block:last-child{
+
+    padding-bottom:0;
+
+    border-bottom:none;
+
+}
 
 .flow{
 

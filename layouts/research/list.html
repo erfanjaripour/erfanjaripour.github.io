@@ -12,18 +12,14 @@ Research projects investigating computational models of memory, learning, and co
 
 <section>
 
-<div class="stack flow">
+<div class="stack-block">
 
 {{ range .Pages.ByDate.Reverse }}
 
 <article class="block">
 
     <a class="inline-link" href="{{ .RelPermalink }}">
-
-    <h2 class="card-title">
-        {{ .Title }}
-    </h2>
-
+        <h2 class="card-title">{{ .Title }}</h2>
     </a>
 
     <p class="card-meta">
@@ -34,15 +30,19 @@ Research projects investigating computational models of memory, learning, and co
         {{ .Params.preview }}
     </p>
 
+    {{ with .Params.research_question }}
     <div class="secondary-content">
         <strong>Research Question</strong>
-        <p>{{ .Params.research_question }}</p>
+        <p>{{ . }}</p>
     </div>
+    {{ end }}
 
+    {{ with .Params.method_keywords }}
     <div class="secondary-content">
         <strong>Methods</strong>
-        <p>{{ .Params.method_keywords }}</p>
+        <p>{{ . }}</p>
     </div>
+    {{ end }}
 
 </article>
 
