@@ -9,6 +9,7 @@ theme = "PaperMod"
       unsafe = true
 
 [params]
+
   customCSS = ["css/extended/custom.css"]
 
   email = "erfanjaripour@email.com"
@@ -16,6 +17,14 @@ theme = "PaperMod"
   psyarxiv = "https://osf.io/j2ws4/"
   orcid = "https://orcid.org/0009-0009-3229-4721"
 
+  author = "Erfan Jaripour"
+
+  description = "Personal academic website of Erfan Jaripour. Research in computational cognitive science, Bayesian cognitive modeling, working memory, learning."
+  
+  keywords = [
+    "Erfan Jaripour",
+    "Computational Cognitive Science"
+  ]
 
 [menu]
 

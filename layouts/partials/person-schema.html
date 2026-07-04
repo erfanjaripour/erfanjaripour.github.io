@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+
+  "name": "{{ .Site.Params.author }}",
+
+  "url": "{{ .Site.BaseURL }}",
+
+  "jobTitle": "Researcher",
+
+  "description": "{{ .Site.Params.description }}",
+
+  "email": "mailto:{{ .Site.Params.email }}",
+
+  "sameAs": [
+    "{{ .Site.Params.github }}",
+    "{{ .Site.Params.orcid }}",
+    "{{ .Site.Params.psyarxiv }}"
+  ]
+}
+</script>
