@@ -13,9 +13,9 @@
       <link>http://localhost:1313/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/stroop-interference/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.&lt;/p&gt;
-&lt;h3 id=&#34;research-question&#34;&gt;Research Question&lt;/h3&gt;
+&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
     </item>
     <item>
@@ -23,9 +23,9 @@
       <link>http://localhost:1313/research/computational-training/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/computational-training/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, transparent workflows, and statistical reasoning as preparation for future empirical and computational research.&lt;/p&gt;
-&lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
 &lt;p&gt;The primary objective of this project is to develop the computational and statistical foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
     </item>
   </channel>

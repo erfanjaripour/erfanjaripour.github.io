@@ -1,8 +1,11 @@
 ---
-date: 2026-07-03
 title: "Understanding Bayesian Thinking"
-project: "Computational Cognitive Science Training Portfolio"
+date: 2026-07-03
+
 preview: "Learning the foundations of Bayesian inference highlighted for me the role of evidence and uncertainty in statistical reasoning."
+
+project_title: "Computational Cognitive Science Training Portfolio"
+project_url: "/research/computational-training/"
 ---
 
 <!-- Situation -->

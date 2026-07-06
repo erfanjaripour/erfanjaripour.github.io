@@ -39,13 +39,8 @@
     width:100%;
     max-width:var(--content-width);
     margin:0 auto;
-    padding:0 var(--space-3);
+    padding:0 var(--space-3) var(--space-6);
     box-sizing:border-box;
-}
-
-.post-single,
-.post-content{
-    padding:0;
 }
 
 section{
@@ -62,6 +57,67 @@ section:last-child{
 
 .home section:last-child{
     margin-bottom:0;
+}
+
+/* --- Single --- */
+
+.post-single,
+.post-content{
+    padding:0;
+    margin-top:var(--space-4);
+    margin-bottom:0;
+}
+
+.post-single{
+    max-width:var(--content-width);
+    margin:0 auto;
+}
+
+.page-header .secondary-content{
+    margin-top:var(--space-3);
+}
+
+.page-header h1{
+    font-size:2rem;      /* or 1.8rem */
+    margin-bottom:var(--space-3);
+}
+
+.post-content p{
+    margin-bottom: var(--space-3);
+}
+
+.post-content p:last-child{
+    margin-bottom: 0;
+}
+
+/* --- Headings --- */
+
+.post-title,
+.page-header h1{
+    font-size:1.7rem;
+    margin-bottom:var(--space-3);
+}
+
+.post-content h1{
+    font-size:1.75rem;   /* previous h2 size */
+}
+
+.post-content h2{
+    margin-top:var(--space-6);
+    margin-bottom:var(--space-3);
+    font-size:1.35rem;   /* previous h3 size */
+}
+
+.post-content h3{
+    margin-top:var(--space-5);
+    margin-bottom:var(--space-2);
+    font-size:1.15rem;   /* previous h4 size */
+}
+
+.post-content h4{
+    margin-top:var(--space-4);
+    margin-bottom:var(--space-2);
+    font-size:1rem;
 }
 
 /* ---------- Typography ---------- */
@@ -105,7 +161,7 @@ a.inline-link:hover {
 
 .secondary-content{
 
-    margin-top:var(--space-3);
+    margin-top:0;
 
     margin-bottom:0;
 
@@ -115,25 +171,6 @@ a.inline-link:hover {
 
     color:var(--primary);
 
-}
-
-/* Markdown / single pages */
-
-.post-header{
-    margin:0 0 var(--space-6);
-}
-
-.post-title{
-    margin:0 0 var(--space-4);
-}
-
-.post-meta{
-    margin-top:var(--space-3);
-}
-
-.md-content > p.page-intro:not(:last-child){
-    margin-bottom: var(--space-6);
-    color: var(--secondary);
 }
 
 /* ---------- Images ---------- */
@@ -207,7 +244,122 @@ a.inline-link:hover {
     margin-bottom: 0;
 }
 
-/* ---------- Stac, Block, Flow ---------- */
+
+/* ---------- Cards ---------- */
+
+.card{
+
+    padding:var(--card-padding);
+
+    border:var(--border-width) solid var(--border-color);
+
+    border-radius:var(--radius);
+
+    transition:border-color var(--transition);
+
+}
+
+
+
+.card-meta{
+
+    margin:0;
+
+    font-size:var(--meta-size);
+
+    color:var(--secondary);
+
+}
+
+.card-preview{
+
+    line-height:var(--line-height);
+
+}
+
+.card-link{
+
+    display:block;
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+.card-link:hover{
+
+    text-decoration:none;
+
+}
+
+.card-link:hover .card{
+
+    border-color:var(--primary);
+
+}
+
+/* ---------- List Items ---------- */
+
+.list-item{
+
+    padding-left:var(--space-4);
+
+    border-left:2px solid var(--border-color);
+
+    transition:border-color var(--transition);
+
+}
+
+.list-link{
+
+    display:block;
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+.list-link:hover{
+
+    text-decoration:none;
+
+}
+
+.list-link:hover .list-item{
+
+    border-left-color:var(--primary);
+
+}
+
+/* ---------- Metadata ---------- */
+
+.metadata{
+
+    margin-top:var(--space-4);
+
+}
+
+.metadata-label{
+
+    margin-bottom:4px;
+
+    font-size:var(--meta-size);
+
+    font-weight:600;
+
+    color:var(--secondary);
+
+}
+
+.metadata-text{
+
+    margin:0;
+
+}
+
+/* ---------- Stack and Block ---------- */
 
 .stack{
 
@@ -251,142 +403,8 @@ a.inline-link:hover {
 
 }
 
-.flow{
 
-    margin-top: var(--space-4);
-
-}
-
-.half-flow{
-
-    margin-top: var(--space-2);
-
-}
-
-/* ---------- Cards ---------- */
-
-.card{
-
-    padding:var(--card-padding);
-
-    border:var(--border-width) solid var(--border-color);
-
-    border-radius:var(--radius);
-
-    transition:border-color var(--transition);
-
-}
-
-.card-title{
-
-    margin:0 0 var(--space-2);
-
-}
-
-.card-meta{
-
-    margin:0 0 var(--space-3);
-
-    font-size:var(--meta-size);
-
-    color:var(--secondary);
-
-}
-
-.card-preview{
-
-    margin:0;
-
-    line-height:var(--line-height);
-
-}
-
-.card-link{
-
-    display:block;
-
-    color:inherit;
-
-    text-decoration:none;
-
-}
-
-.card-link:hover{
-
-    text-decoration:none;
-
-}
-
-.card-link:hover .card{
-
-    border-color:var(--primary);
-
-}
-
-
-/* ---------- List Items ---------- */
-
-.list-item{
-
-    padding-left:var(--space-4);
-
-    border-left:2px solid var(--border-color);
-
-    transition:border-color var(--transition);
-
-}
-
-.list-link{
-
-    display:block;
-
-    color:inherit;
-
-    text-decoration:none;
-
-}
-
-.list-link:hover{
-
-    text-decoration:none;
-
-}
-
-.list-link:hover .list-item{
-
-    border-left-color:var(--primary);
-
-}
-
-
-/* ---------- Metadata ---------- */
-
-.metadata{
-
-    margin-top:var(--space-4);
-
-}
-
-.metadata-label{
-
-    margin-bottom:4px;
-
-    font-size:var(--meta-size);
-
-    font-weight:600;
-
-    color:var(--secondary);
-
-}
-
-.metadata-text{
-
-    margin:0;
-
-}
-
-
-/* ---------- Publications ---------- */
+/* ---------- Publication ---------- */
 
 .publication-item{
 
@@ -467,6 +485,17 @@ a.inline-link:hover {
 
 }
 
+/* ---------- Spacing ---------- */
+
+.mt-1 { margin-top: var(--space-1); }
+.mt-2 { margin-top: var(--space-2); }
+.mt-3 { margin-top: var(--space-3); }
+.mt-4 { margin-top: var(--space-4); }
+
+.mb-1 { margin-bottom: var(--space-1); }
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-3 { margin-bottom: var(--space-3); }
+.mb-4 { margin-bottom: var(--space-4); }
 
 /* ---------- MOBILE NAVIGATION ---------- */
 

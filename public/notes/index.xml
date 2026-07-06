@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Notes on Erfan Jaripour</title>
+    <title>Research Journal on Erfan Jaripour</title>
     <link>http://localhost:1313/notes/</link>
-    <description>Recent content in Notes on Erfan Jaripour</description>
+    <description>Recent content in Research Journal on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing Python Environment Conflicts</title>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to produce the results. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. So, I replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Bayesian Thinking</title>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior beliefs are combined with new evidence to produce revised conclusions, while uncertainty remains a part of the process. This approach reminded me of scientific research itself, where conclusions are constantly refined as more evidence becomes available. Although Bayesian inference is only one framework for statistical reasoning, I found its emphasis on evidence-based belief updating closely aligned with how I think scientific investigation should be.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preparing The Preprint</title>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</link>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;I reviewed every section multiple times to standardize the writing style and refine the organization of sections and subsections. I also verified references and ensured that every figure, table, and citation was correctly linked. I rechecked and removed repeated information to improve clarity and flow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Data Challage</title>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

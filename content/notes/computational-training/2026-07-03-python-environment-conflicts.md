@@ -1,8 +1,11 @@
 ---
-date: 2026-07-03
 title: "Managing Python Environment Conflicts"
-project: "Computational Cognitive Science Training Portfolio"
+date: 2026-07-03
+
 preview: "Resolving package conflicts highlighted the importance of stable and reproducible research environments."
+
+project_title: "Computational Cognitive Science Training Portfolio"
+project_url: "/research/computational-training/"
 ---
 
 <!-- Situation -->

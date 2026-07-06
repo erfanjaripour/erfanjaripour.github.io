@@ -1,8 +1,12 @@
 ---
-date: 2026-06-26
 title: "Preparing The Preprint"
-project: "Stroop Interference: A Behavioral and Computational Analysis"
+date: 2026-06-26
+
+
 preview: "Preparing the first manuscript required organizing analyses into a coherent and publication-ready scientific narrative."
+
+project_title: "Stroop Interference: A Behavioral and Computational Analysis"
+project_url: "/research/stroop-interference/"
 ---
 
 <!-- Situation -->

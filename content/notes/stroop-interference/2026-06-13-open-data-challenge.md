@@ -1,8 +1,11 @@
 ---
-date: 2026-06-15
 title: "Open Data Challage"
-project: "Stroop Interference: A Behavioral and Computational Analysis"
+date: 2026-06-15
+
 preview: "Open dataset required major preprocessing due to structural issues before any analysis could begin."
+
+project_title: "Stroop Interference: A Behavioral and Computational Analysis"
+project_url: "/research/stroop-interference/"
 ---
 
 <!-- Situation -->

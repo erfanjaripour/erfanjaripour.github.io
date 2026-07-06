@@ -12,7 +12,7 @@ theme = "PaperMod"
 
   customCSS = ["css/extended/custom.css"]
 
-  email = "erfanjaripour@email.com"
+  email = "erfanjaripour@gmail.com"
   github = "https://github.com/erfanjaripour"
   psyarxiv = "https://osf.io/j2ws4/"
   orcid = "https://orcid.org/0009-0009-3229-4721"
@@ -47,9 +47,9 @@ theme = "PaperMod"
     weight = 30
 
   [[menu.main]]
-    identifier = "journal"
-    name = "Research Journal"
-    url = "/journal/"
+    identifier = "notes"
+    name = "Research Notes"
+    url = "/notes/"
     weight = 40
 
   [[menu.main]]

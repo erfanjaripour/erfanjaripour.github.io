@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing Python Environment Conflicts</title>
-      <link>http://localhost:1313/journal/computational-training/2026-07-03-python-environment-conflicts/</link>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/computational-training/2026-07-03-python-environment-conflicts/</guid>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Understanding Bayesian Thinking</title>
-      <link>http://localhost:1313/journal/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -30,9 +30,9 @@
     </item>
     <item>
       <title>Preparing The Preprint</title>
-      <link>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>Open Data Challage</title>
-      <link>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/journal/stroop-interference/2026-06-13-open-data-challenge/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -53,9 +53,9 @@
       <link>http://localhost:1313/publications/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/stroop-interference/</guid>
-      <description>&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;Jaripour, E. (2026). Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis. PsyArXiv Preprint.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The Stroop task is a classic paradigm for studying cognitive interference, selective attention, and response competition. By analyzing behavioral data from 81 participants, this study examined how congruent, incongruent, and neutral conditions affect reaction time and accuracy. The dataset contained trial-level responses from a publicly available Stroop experiment. In the preprocess, probe trials, invalid reaction times, and extreme values were removed. In addition, the participant–session structure in the raw files was resolved. The results showed a robust Stroop interference effect. The fastest reaction times were in the congruent condition, and the slowest in the incongruent condition. The neutral condition contained intermediate performances. The mean interference effect is defined as the difference in reaction time between incongruent and congruent trials. It was 106 ms. A paired-samples t-test confirmed a significant difference between incongruent and congruent conditions, with t(80) = 17.77, p &amp;lt; .001, and a large effect size (dz = 1.97). It showed strong interference at the group level. Accuracy remained high across conditions, with little evidence of a speed–accuracy trade-off. Assumption checks supported the use of parametric analysis.&lt;/p&gt;</description>
     </item>
     <item>
@@ -63,9 +63,9 @@
       <link>http://localhost:1313/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/stroop-interference/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.&lt;/p&gt;
-&lt;h3 id=&#34;research-question&#34;&gt;Research Question&lt;/h3&gt;
+&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
     </item>
     <item>
@@ -73,9 +73,9 @@
       <link>http://localhost:1313/research/computational-training/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/computational-training/</guid>
-      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, transparent workflows, and statistical reasoning as preparation for future empirical and computational research.&lt;/p&gt;
-&lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
+&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
 &lt;p&gt;The primary objective of this project is to develop the computational and statistical foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
     </item>
   </channel>
