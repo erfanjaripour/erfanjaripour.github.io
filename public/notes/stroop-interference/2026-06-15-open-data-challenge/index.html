@@ -5,11 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Research Journal | Erfan Jaripour</title>
+<title>Open Data Challage | Erfan Jaripour</title>
 <meta name="keywords" content="">
-<meta name="description" content="Research Journal - Erfan Jaripour">
+<meta name="description" content="
+Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.
+
+I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.">
 <meta name="author" content="Erfan Jaripour">
-<link rel="canonical" href="http://localhost:1313/notes/">
+<link rel="canonical" href="http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.e74c047b1fdeeecf2ea88b7a0e3d111faa18063ce21bf861de1086bfe892c759.css" integrity="sha256-50wEex/e7s8uqIt6Dj0RH6oYBjziG/hh3hCGv&#43;iSx1k=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +21,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/notes/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/notes/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/">
 <noscript>
     <style>
         #theme-toggle,
@@ -171,7 +173,7 @@
         <li>
             <a href="http://localhost:1313/notes/"
                title="Research Notes">
-                <span class="active">
+                <span >
                     Research Notes
                 </span>
 
@@ -210,169 +212,46 @@
 </header>
 <main class="main">
 
-<section>
+<article class="post-single">
 
-<h1>Research Notes</h1>
+    <header class="page-header">
 
-<p class="page-intro">
-Research notes documenting observations, methodological decisions, technical challenges, and insights throughout ongoing research projects.
-</p>
-
-</section>
-
-<section>
-
-<div class="stack">
-
-
-
-<a class="list-link" href="/notes/working-memory-bayesian-model/2026-07-13-from-practice-to-real-data/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
-            13 July 2026
-        </p>
+        <h1>Open Data Challage</h1>
 
         
-        <p class="card-preview mt-3">
-            Building hierarchical Bayesian models with real data revealed computational and methodological challenges that did not appear during training.
-        </p>
-        
 
-        <p class="card-meta mt-1">
-          A Reproducible Bayesian Computational Analysis of Working Memory
-        </p>
-
-    </article>
-
-</a>
-
-
-
-<a class="list-link" href="/notes/stroop-interference/2026-07-08-learning-the-publication-process/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
-            8 July 2026
-        </p>
-
-        
-        <p class="card-preview mt-3">
-            Submitting a first preprint provided practical experience with editorial screening and the realities of scientific publishing.
-        </p>
-        
-
-        <p class="card-meta mt-1">
-          Stroop Interference: A Behavioral and Computational Analysis
-        </p>
-
-    </article>
-
-</a>
-
-
-
-<a class="list-link" href="/notes/computational-training/2026-07-03-understanding-bayesian-thinking/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
-            3 July 2026
-        </p>
-
-        
-        <p class="card-preview mt-3">
-            Learning the foundations of Bayesian inference highlighted for me the role of evidence and uncertainty in statistical reasoning.
-        </p>
-        
-
-        <p class="card-meta mt-1">
-          Computational Cognitive Science Training Portfolio
-        </p>
-
-    </article>
-
-</a>
-
-
-
-<a class="list-link" href="/notes/computational-training/2026-07-03-python-environment-conflicts/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
-            3 July 2026
-        </p>
-
-        
-        <p class="card-preview mt-3">
-            Resolving package conflicts highlighted the importance of stable and reproducible research environments.
-        </p>
-        
-
-        <p class="card-meta mt-1">
-          Computational Cognitive Science Training Portfolio
-        </p>
-
-    </article>
-
-</a>
-
-
-
-<a class="list-link" href="/notes/stroop-interference/2026-06-26-preparing-the-preprint/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
-            26 June 2026
-        </p>
-
-        
-        <p class="card-preview mt-3">
-            Preparing the first manuscript required organizing analyses into a coherent and publication-ready scientific narrative.
-        </p>
-        
-
-        <p class="card-meta mt-1">
-          Stroop Interference: A Behavioral and Computational Analysis
-        </p>
-
-    </article>
-
-</a>
-
-
-
-<a class="list-link" href="/notes/stroop-interference/2026-06-15-open-data-challenge/">
-
-    <article class="list-item mb-2">
-
-        <p class="card-meta mt-2">
+        <p class="card-meta">
             15 June 2026
         </p>
 
+	
+	<p class="secondary-content">
+  	  <strong>Associated Project:</strong>
+ 	   <a class="inline-link" href="/research/stroop-interference/">
+  	      Stroop Interference: A Behavioral and Computational Analysis
+ 	   </a>
+	</p>
+	
+
         
-        <p class="card-preview mt-3">
-            Open dataset required major preprocessing due to structural issues before any analysis could begin.
-        </p>
-        
 
-        <p class="card-meta mt-1">
-          Stroop Interference: A Behavioral and Computational Analysis
-        </p>
+    </header>
 
-    </article>
+    <hr>
 
-</a>
+    <div class="post-content">
+        <!-- Situation -->
+<p>Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.</p>
+<!-- Data -->
+<p>I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.</p>
+<!-- Inferenc -->
+<p>Open data can be useful only after careful checking of its structure. Without it, early descriptive results can be biased by hidden duplications, inconsistent formatting, or incorrect participant counts.</p>
+<!-- Action -->
+<p>I will start each project with a basic checkup to verify headers, count unique participants, inspect duplicate IDs, and clearly document decisions before any analysis.</p>
 
+    </div>
 
-
-</div>
-
-</section>
+</article>
 
 
     </main>

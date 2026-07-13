@@ -6,8 +6,18 @@
     <description>Recent content in Research Journal on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Practice to Real Data</title>
+      <link>http://localhost:1313/notes/working-memory-bayesian-model/2026-07-13-from-practice-to-real-data/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/working-memory-bayesian-model/2026-07-13-from-practice-to-real-data/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially more computation, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;The first challenge was computational performance. The models became extremely slow when using larger numbers of tuning and sampling iterations. After investigating the problem, I learned how to use NumPyro with JAX to improve sampling performance and adjusted several model settings to support the analysis better. Although these changes improved the workflow, convergence remained difficult for some nonlinear models. I tested many combinations of sampling parameters and repeatedly evaluated the results. Larger sampling runs also created memory limitations during model evaluation. After many iterations and hours of computation, I identified a configuration that produced stable results while remaining computationally practical.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Learning the Publication Process</title>
       <link>http://localhost:1313/notes/stroop-interference/2026-07-08-learning-the-publication-process/</link>
@@ -48,9 +58,9 @@
     </item>
     <item>
       <title>Open Data Challage</title>
-      <link>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/stroop-interference/2026-06-13-open-data-challenge/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
 &lt;!-- Data --&gt;
