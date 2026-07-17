@@ -24,7 +24,7 @@
         {{ else if eq .Section "publications" }}
 
         <p class="card-meta">
-          {{ .Date.Format "January 2006" }} · {{ .Params.status | title }}
+          {{ .Date.Format "January 2006" }} · {{ .Params.status }}
         </p>
 
 	{{ with .Params.project_url }}

@@ -4,8 +4,8 @@ date: "2026-06-11"
 
 authors: "Jaripour, E."
 year: "2026"
-venue: "PsyArXiv"
-status: "preprint"
+venue: "Research Square"
+status: "Preprint"
 
 project_title: "Stroop Interference: A Behavioral and Computational Analysis"
 project_url: "/research/stroop-interference/"
@@ -13,7 +13,7 @@ project_url: "/research/stroop-interference/"
 
 ## Citation
 
-Jaripour, E. (2026). Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis. PsyArXiv Preprint.
+Jaripour, E. (2026). *Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.* Research Square Preprint. https://doi.org/10.21203/rs.3.rs-10287577/v1
 
 ## Abstract
 
@@ -27,8 +27,8 @@ The Stroop task is a classic paradigm for studying cognitive interference, selec
 * Developed and evaluated a minimal computational model of Stroop interference.
 * Integrated behavioral analysis and computational modeling within a fully reproducible research workflow.
 
-## Access
+## Resources
 
-* [PsyArXiv Preprint](https://osf.io/j2ws4/)
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10287577/v1)
 * [GitHub Repository](https://github.com/erfanjaripour/stroop-interference)
 * [Open Dataset (OSF)](https://osf.io/kxpqu/overview)
