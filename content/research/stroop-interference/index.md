@@ -2,7 +2,7 @@
 title: "Stroop Interference: A Behavioral and Computational Analysis"
 date: 2026-06-11
 
-status: "Active"
+status: "Completed"
  
 preview: "A reproducible behavioral and computational analysis of cognitive interference in the Stroop task using open behavioral data."
 
@@ -46,21 +46,29 @@ The analysis pipeline included data cleaning, quality control, descriptive stati
 
 ## Figures
 
-### Figure 1. Reaction Time Distribution by Condition
+{{< figure
+src="figures/rt-by-condition.png"
+alt="Reaction Time Distribution"
+caption="<strong>Figure 1.</strong> Reaction time distributions by condition."
+>}}
 
-![Reaction Time Distribution](figures/rt-by-condition.png)
+{{< figure
+src="figures/distribution-stroop-effects.png"
+alt="Stroop Effect Distribution"
+caption="**Figure 2.** Distribution of participant-level Stroop interference effects."
+>}}
 
-### Figure 2. Distribution of Participant-Level Stroop Effects
+{{< figure
+src="figures/baseline-vs-effect.png"
+alt="Baseline vs Effect"
+caption="**Figure 3.** Baseline reaction time and Stroop interference."
+>}}
 
-![Stroop Effect Distribution](figures/distribution-stroop-effects.png)
-
-### Figure 3. Baseline Processing Speed and Stroop Interference
-
-![Baseline vs Effect](figures/baseline-vs-effect.png)
-
-### Figure 4. Empirical Data Versus Computational Model
-
-![Model Comparison](figures/model-vs-data.png)
+{{< figure
+src="figures/model-vs-data.png"
+alt="Model Comparison"
+caption="**Figure 4.** Comparison of observed and simulated reaction time distributions."
+>}}
 
 ## Discussion
 
@@ -80,5 +88,5 @@ Future work will extend this framework through Bayesian and hierarchical modelin
 ## Resources and Outputs
 
 * [GitHub Repository](https://github.com/erfanjaripour/stroop-interference)
-* [PsyArXiv Preprint](https://osf.io/j2ws4/)
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10287577/v1)
 * [Open Dataset (OSF)](https://osf.io/kxpqu/overview)

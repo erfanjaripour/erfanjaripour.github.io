@@ -175,30 +175,22 @@ a.inline-link:hover {
 
 /* ---------- Images ---------- */
 
-.post-content img{
-
-    display:block;
-
-    max-width:100%;
-
-    height:auto;
-
-    margin:var(--space-5) auto;
-
-    border-radius:4px;
-
+.post-content figure{
+    margin: var(--space-5) 0;
 }
 
-.post-content figcaption{
+.post-content figure img{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
+    border-radius:4px;
+}
 
-    margin-top:12px;
-
+.post-content figure figcaption{
+    margin-top:var(--space-2);
     font-size:var(--caption-size);
-
-    text-align:center;
-
     color:var(--secondary);
-
 }
 
 
