@@ -14,7 +14,7 @@ research_interests:
   - Bayesian Cognitive Modeling
 
 research_questions:
-  - How does interference scale with cognitive load?
-  - What mechanisms govern task-switching latency?
-  - How stable are individual differences in Stroop interference?
+  - How does memory load influence the precision of visual working memory representations?
+  - Can hierarchical Bayesian models provide more accurate and interpretable estimates of latent cognitive processes than traditional statistical approaches?
+  - How can open, reproducible computational methods improve the reliability and transparency of cognitive psychology research?interference?
 ---
