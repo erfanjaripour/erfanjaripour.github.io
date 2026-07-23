@@ -6,8 +6,16 @@
     <description>Recent content in Research on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hierarchical Bayesian Modeling of Memory Load Effects on Visual Working Memory Precision</title>
+      <link>http://localhost:1313/research/hierarchical-bayesian-working-memory/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/hierarchical-bayesian-working-memory/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project investigates how memory load influences visual working memory precision using trial-level data from an openly available continuous-report dataset. Using behavioral data from three visual working memory experiments, the study examines whether increasing set size is associated with reduced memory precision and whether individual differences can be captured using hierarchical Bayesian models. The project combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational analysis within an open-science workflow.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stroop Interference: A Behavioral and Computational Analysis</title>
       <link>http://localhost:1313/research/stroop-interference/</link>
@@ -24,9 +32,9 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/computational-training/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, Bayesian modeling, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, probabilistic reasoning, transparent workflows, and reproducible computational methods as preparation for future empirical and computational research.&lt;/p&gt;
+&lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, mixed-effects modeling, Bayesian modeling, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, probabilistic reasoning, hierarchical modeling, transparent workflows, and reproducible computational methods as preparation for future empirical and computational research.&lt;/p&gt;
 &lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
-&lt;p&gt;The primary objective of this project is to develop the computational, statistical, and modeling foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, Bayesian analysis, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
+&lt;p&gt;The primary objective of this project is to develop the computational, statistical, and modeling foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, mixed-effects modeling, Bayesian analysis, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
