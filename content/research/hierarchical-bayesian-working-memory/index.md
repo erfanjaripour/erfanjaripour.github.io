@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical Bayesian Modeling of Memory Load Effects on Visual Working Memory Precision"
+title: "Hierarchical Bayesian Modeling of Visual Working Memory Precision"
 date: 2026-07-23
 
 status: "Completed"
@@ -11,7 +11,7 @@ research_question: "How does memory load influence visual working memory precisi
 methods: ["Hierarchical Bayesian Modeling", "Circular Statistics", "Computational Modeling"]
 
 publication_url: "/publications/hierarchical-bayesian-working-memory/"
-publication_title: "Hierarchical Bayesian Modeling of Memory Load Effects on Visual Working Memory Precision"
+publication_title: "A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision"
 ---
 
 ## Overview

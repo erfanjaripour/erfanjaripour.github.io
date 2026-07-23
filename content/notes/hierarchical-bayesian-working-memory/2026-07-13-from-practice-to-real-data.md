@@ -4,7 +4,7 @@ date: 2026-07-13
 
 preview: "Building hierarchical Bayesian models with real data revealed computational and methodological challenges that did not appear during training."
 
-project_title: "Hierarchical Bayesian Analysis of Visual Working Memory Precision"
+project_title: "Hierarchical Bayesian Modeling of Visual Working Memory Precision"
 project_url: "/research/hierarchical-bayesian-working-memory/"
 ---
 
