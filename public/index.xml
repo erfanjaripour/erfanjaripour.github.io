@@ -6,8 +6,18 @@
     <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Following the Analysis Plan</title>
+      <link>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match what I expected from the analysis. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;I found that some analysis steps had not been documented as clearly as they should have been. During the analysis, I explored several alternative approaches, and a few code cells and comments no longer reflected the final workflow. To ensure everything was correct, I regenerated the main figures and carefully compared them with the final analysis.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision</title>
       <link>http://localhost:1313/publications/hierarchical-bayesian-working-memory/</link>
