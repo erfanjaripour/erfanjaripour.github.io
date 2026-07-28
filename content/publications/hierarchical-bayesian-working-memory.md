@@ -4,7 +4,7 @@ date: "2026-07-23"
 
 authors: "Jaripour, E."
 year: "2026"
-venue: ""
+venue: "Research Square"
 status: "Preprint"
 
 project_title: "Hierarchical Bayesian Modeling of Visual Working Memory Precision"
@@ -13,7 +13,7 @@ project_url: "/research/hierarchical-bayesian-working-memory/"
 
 ## Citation
 
-Jaripour, E. (2026). *A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.* Preprint.
+Jaripour, E. (2026). *A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.* Research Square Preprint. https://doi.org/10.21203/rs.3.rs-10469232/v1
 
 ## Abstract
 
@@ -30,6 +30,6 @@ Results showed that memory precision decreased systematically as memory load inc
 
 ## Resources
 
-* [Preprint](To be added after publication.)
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10469232/v1)
 * [GitHub Repository](https://github.com/erfanjaripour/hierarchical-bayesian-working-memory)
 * [Open Dataset (GitHub)](https://github.com/joschadutli/BenchmarksWM)

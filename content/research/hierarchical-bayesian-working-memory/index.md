@@ -87,5 +87,5 @@ Future work will extend this framework by evaluating theoretically motivated cog
 ## Resources and Outputs
 
 * [GitHub Repository](https://github.com/erfanjaripour/hierarchical-bayesian-working-memory)
-* [Preprint](To be added after publication.)
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10469232/v1)
 * [Open Dataset (GitHub)](https://github.com/joschadutli/BenchmarksWM)
