@@ -42,4 +42,4 @@ Future development will extend the portfolio toward advanced computational cogni
 
 ## Resources
 
-* [GitHub Repository](https://github.com/erfanjaripour/computational-cognitive-science-training)
+* [GitHub Repository](https://github.com/erfanjaripour/computational-cognitive-science-training-portfolio)
