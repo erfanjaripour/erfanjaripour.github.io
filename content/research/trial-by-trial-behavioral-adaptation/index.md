@@ -72,32 +72,28 @@ Candidate models were compared using Akaike's information criterion (AIC), Bayes
 ## Figures
 
 {{< figure
-src="figures/figure-1-payoff-maximizing-choice-probability.pdf"
+src="figures/figure-1-payoff-maximizing-choice-probability.png"
 alt="Payoff-Maximizing Choice Probability"
 caption="<strong>Figure 1.</strong> Model-implied probability of selecting the payoff-maximizing option across trials and payoff groups."
-
-> }}
+>}}
 
 {{< figure
-src="figures/figure-2-reward-trajectory.pdf"
+src="figures/figure-2-reward-trajectory.png"
 alt="Reward Trajectory"
 caption="<strong>Figure 2.</strong> Trial-related trajectory of obtained reward across payoff groups."
-
-> }}
+>}}
 
 {{< figure
-src="figures/figure-3-reaction-time-trajectory.pdf"
+src="figures/figure-3-reaction-time-trajectory.png"
 alt="Reaction Time Trajectory"
 caption="<strong>Figure 3.</strong> Trial-related trajectory of log-transformed reaction time across payoff groups."
-
-> }}
+>}}
 
 {{< figure
-src="figures/figure-4-choice-switch-probability.pdf"
+src="figures/figure-4-choice-switch-probability.png"
 alt="Choice Switching Probability"
 caption="<strong>Figure 4.</strong> Trial-related trajectory of choice-switch probability across payoff groups."
-
-> }}
+>}}
 
 ## Discussion
 
