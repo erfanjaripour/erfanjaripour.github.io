@@ -5,14 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Stroop Interference: A Behavioral and Computational Analysis | Erfan Jaripour</title>
+<title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task | Erfan Jaripour</title>
 <meta name="keywords" content="">
 <meta name="description" content="Overview
-This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.
-Research Question
-How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?">
+This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data from an openly available dataset, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.
+The primary analysis uses logistic mixed-effects modeling to characterize trial-by-trial changes in the probability of selecting the option with the highest trial-specific payoff while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters or computational learning mechanisms.">
 <meta name="author" content="Erfan Jaripour">
-<link rel="canonical" href="http://localhost:1313/research/stroop-interference/">
+<link rel="canonical" href="http://localhost:1313/research/trial-by-trial-behavioral-adaptation/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fb23a4d9f50099b5fe2532599c1edc491a6689e10f8bac73d82359ca240f2a30.css" integrity="sha256-&#43;yOk2fUAmbX&#43;JTJZnB7cSRpmieEPi6xz2CNZyiQPKjA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -21,7 +20,7 @@ How does cognitive interference influence reaction time and accuracy during Stro
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/research/stroop-interference/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/trial-by-trial-behavioral-adaptation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -216,19 +215,19 @@ How does cognitive interference influence reaction time and accuracy during Stro
 
     <header class="page-header">
 
-        <h1>Stroop Interference: A Behavioral and Computational Analysis</h1>
+        <h1>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task</h1>
 
         
 
         <p class="card-meta">
-          June 2026 · Completed
+          August 2026 · Completed
         </p>
 
         
         <p class="secondary-content">
             <strong>Publication:</strong>
-            <a class="inline-link" href="/publications/stroop-interference/">
-                Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis
+            <a class="inline-link" href="/publications/trial-by-trial-behavioral-adaptation/">
+                Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach
             </a>
         </p>
         
@@ -241,70 +240,88 @@ How does cognitive interference influence reaction time and accuracy during Stro
 
     <div class="post-content">
         <h2 id="overview">Overview</h2>
-<p>This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.</p>
+<p>This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data from an openly available dataset, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.</p>
+<p>The primary analysis uses logistic mixed-effects modeling to characterize trial-by-trial changes in the probability of selecting the option with the highest trial-specific payoff while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters or computational learning mechanisms.</p>
+<p>The project combines mixed-effects statistical modeling, model comparison, robustness analysis, and reproducible computational workflows.</p>
 <h2 id="research-question">Research Question</h2>
-<p>How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?</p>
+<p>How does behavioral performance evolve across repeated trials in a dynamic reward environment, and to what extent do individuals differ in their behavioral trajectories?</p>
 <h2 id="theoretical-background">Theoretical Background</h2>
-<p>The Stroop effect is a classic demonstration of cognitive interference, occurring when an automatically processed stimulus dimension conflicts with a task-relevant response dimension. The resulting performance cost has been interpreted through theories of automaticity, selective attention, response conflict, and cognitive control. This project examines the phenomenon from a behavioral and computational perspective, emphasizing reproducible measurement and model-based explanation.</p>
+<p>Reinforcement-learning tasks provide a framework for studying how behavior changes as individuals repeatedly interact with dynamic reward environments. In restless bandit tasks, the value associated with available options changes over time, requiring participants to continually adapt their choices to changing payoff structures.</p>
+<p>Behavioral adaptation can be examined without explicitly estimating latent learning parameters. Observable measures such as selection of the currently highest-payoff option, obtained reward, reaction time, and choice switching provide complementary indicators of behavioral change across trials.</p>
+<p>This project adopts this behavioral approach. Rather than attributing observed changes to a particular computational learning mechanism, it characterizes the empirical trajectory of behavior and quantifies individual differences in those trajectories using mixed-effects models.</p>
 <h2 id="dataset">Dataset</h2>
-<p>The analysis used an openly available Stroop-task dataset from the Open Science Framework (OSF), comprising behavioral data from 81 participants across 85 recording sessions. The dataset included trial-level reaction time, accuracy, experimental condition, and participant identifiers collected during congruent, neutral, and incongruent Stroop trials. Preprocessing involved removing probe trials, excluding invalid and extreme reaction times, resolving participant–session identifiers, and aggregating observations at the participant level for inferential analyses.</p>
+<p>The analysis used the publicly available Bahrami2020 four-arm restless bandit dataset. The original dataset contains behavioral observations from 975 participants performing a four-arm bandit task with 150 trials per participant. Each trial provides participant choice, obtained reward, reaction time, and trial-specific payoff information for the four available options.</p>
+<p>After preprocessing, 965 participants and 139,816 trial-level observations were retained for analysis. Choice-switching analyses used a reduced number of observations because switching is undefined when no preceding observed choice is available.</p>
+<p>The raw dataset was preserved unchanged, and all preprocessing operations were implemented programmatically.</p>
 <h2 id="methods">Methods</h2>
-<p>The analysis pipeline included data cleaning, quality control, descriptive statistics, and inferential testing. Stroop interference was quantified as the participant-level difference between incongruent and congruent reaction times. Statistical analyses included paired-samples t-tests, effect-size estimation, confidence intervals, and assumption diagnostics. A simple additive computational model was implemented to evaluate whether condition-level behavioral patterns could be reproduced through a baseline-plus-interference framework.</p>
+<p>The analysis pipeline included data validation, preprocessing, descriptive analysis, exploratory analysis, mixed-effects model fitting, model comparison, and robustness analysis.</p>
+<p>The primary outcome was payoff-maximizing choice, defined as whether the participant selected the option with the highest payoff on a given trial. A logistic mixed-effects model was used to estimate trial-related changes in this probability:</p>
+<p>payoff_maximizing_choice ~ (trial_c + trial_c2) * payoff_group +
+(1 + trial_c + trial_c2 | id)</p>
+<p>Trial number was centered and modeled using both linear and quadratic terms. The model therefore allowed the trajectory of payoff-maximizing choice to change nonlinearly across trials. Participant-specific random intercepts, linear trial slopes, and quadratic trial slopes were included with a correlated random-effects structure.</p>
+<p>Secondary analyses examined obtained reward, log-transformed reaction time, and choice switching using linear mixed-effects or logistic mixed-effects models as appropriate.</p>
+<p>Candidate models were compared using Akaike&rsquo;s information criterion (AIC), Bayesian information criterion (BIC), and log-likelihood. Likelihood-ratio tests were used for nested model comparisons where appropriate. Robustness analyses evaluated alternative random-effects structures and linear versus quadratic representations of trial-related change.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
-<li>Reaction times increased systematically from congruent to neutral to incongruent conditions.</li>
-<li>Mean Stroop interference effect: <strong>106.3 ms</strong></li>
-<li>Statistical evidence for interference: <strong>t(80) = 17.77, p = 1.67 × 10⁻²⁹</strong></li>
-<li>Effect size: <strong>dz = 1.97</strong></li>
-<li>Accuracy remained high across conditions.</li>
-<li>Substantial individual differences were observed.</li>
-<li>The computational model reproduced the primary condition-level reaction-time pattern.</li>
+<li>The probability of selecting the payoff-maximizing option changed nonlinearly across trials.</li>
+<li>The primary quadratic model provided substantially better fit than the corresponding linear interaction model.</li>
+<li>The quadratic model with correlated random effects was preferred over the uncorrelated specification based on both AIC and BIC.</li>
+<li>Overall, participants selected the payoff-maximizing option on <strong>61.35%</strong> of trials.</li>
+<li>The primary model showed positive linear (<strong>β = 0.492, p &lt; .001</strong>) and quadratic (<strong>β = 0.327, p &lt; .001</strong>) trial components.</li>
+<li>The shape of the trial trajectory differed across payoff groups, with some groups showing flattening or declining trajectories and others showing stronger acceleration.</li>
+<li>Obtained reward showed a negative overall trial effect (<strong>β = −0.981, p &lt; .001</strong>) with significant trial-by-payoff-group interactions.</li>
+<li>Log-transformed reaction time decreased across trials (<strong>β = −0.0257, p &lt; .001</strong>).</li>
+<li>Choice switching decreased across trials (<strong>β = −0.625, p &lt; .001</strong>), with the trajectory differing between payoff groups.</li>
 </ul>
 <h2 id="figures">Figures</h2>
 <figure>
-    <img loading="lazy" src="figures/rt-by-condition.png"
-         alt="Reaction Time Distribution"/> <figcaption>
-            <p><strong>Figure 1.</strong> Reaction time distributions by condition.</p>
+    <img loading="lazy" src="figures/figure-1-payoff-maximizing-choice-probability.pdf"
+         alt="Payoff-Maximizing Choice Probability"/> <figcaption>
+            <p><strong>Figure 1.</strong> Model-implied probability of selecting the payoff-maximizing option across trials and payoff groups.</p>
         </figcaption>
 </figure>
 
 <figure>
-    <img loading="lazy" src="figures/distribution-stroop-effects.png"
-         alt="Stroop Effect Distribution"/> <figcaption>
-            <p><strong>Figure 2.</strong> Distribution of participant-level Stroop interference effects.</p>
+    <img loading="lazy" src="figures/figure-2-reward-trajectory.pdf"
+         alt="Reward Trajectory"/> <figcaption>
+            <p><strong>Figure 2.</strong> Trial-related trajectory of obtained reward across payoff groups.</p>
         </figcaption>
 </figure>
 
 <figure>
-    <img loading="lazy" src="figures/baseline-vs-effect.png"
-         alt="Baseline vs Effect"/> <figcaption>
-            <p><strong>Figure 3.</strong> Baseline reaction time and Stroop interference.</p>
+    <img loading="lazy" src="figures/figure-3-reaction-time-trajectory.pdf"
+         alt="Reaction Time Trajectory"/> <figcaption>
+            <p><strong>Figure 3.</strong> Trial-related trajectory of log-transformed reaction time across payoff groups.</p>
         </figcaption>
 </figure>
 
 <figure>
-    <img loading="lazy" src="figures/model-vs-data.png"
-         alt="Model Comparison"/> <figcaption>
-            <p><strong>Figure 4.</strong> Comparison of observed and simulated reaction time distributions.</p>
+    <img loading="lazy" src="figures/figure-4-choice-switch-probability.pdf"
+         alt="Choice Switching Probability"/> <figcaption>
+            <p><strong>Figure 4.</strong> Trial-related trajectory of choice-switch probability across payoff groups.</p>
         </figcaption>
 </figure>
 
 <h2 id="discussion">Discussion</h2>
-<p>The findings provide strong evidence for cognitive interference during Stroop-task performance. Participants exhibited slower responses under interference conditions while maintaining high levels of accuracy, suggesting that conflict primarily affected response latency. Considerable individual variability was observed, and the computational analysis demonstrated that a simple additive interference mechanism captures the major features of the observed behavioral pattern.</p>
+<p>The findings indicate that behavioral adaptation in the restless bandit task was not adequately characterized by a simple linear change across trials. The primary analysis provided strong evidence for nonlinear trial-related change in payoff-maximizing choice, with the form of this trajectory varying across payoff environments.</p>
+<p>The results also demonstrated substantial between-participant heterogeneity in baseline performance and trial-related change. Modeling participant-specific random intercepts and slopes therefore provided a more appropriate representation of the hierarchical structure of the behavioral data than treating trial-level observations as independent.</p>
+<p>Importantly, these analyses characterize observable behavioral adaptation rather than identifying its underlying computational mechanism. The observed trajectories could potentially arise from different learning, decision, exploration, or adaptation processes. Distinguishing among such mechanisms would require explicit computational models of latent learning and decision processes.</p>
 <h2 id="limitations">Limitations</h2>
 <ul>
-<li>Reliance on an existing open dataset limits experimental control.</li>
-<li>Behavioral measures provide indirect evidence regarding cognitive mechanisms.</li>
-<li>The analyses cannot distinguish among competing theoretical accounts of interference.</li>
-<li>The computational model is descriptive rather than mechanistic.</li>
+<li>Reliance on an existing observational dataset limits experimental control over task design and measurement.</li>
+<li>The analysis focuses on observable behavioral outcomes rather than directly estimating latent reinforcement-learning mechanisms.</li>
+<li>Payoff-maximizing choice provides a behavioral measure of adaptation but does not uniquely identify the cognitive or computational process generating that behavior.</li>
+<li>Quadratic trial terms provide a flexible description of nonlinear trajectories but should not be interpreted as evidence for a specific learning mechanism.</li>
+<li>The analyses are based on a single restless bandit paradigm and may not generalize to other reinforcement-learning tasks or decision environments.</li>
+<li>Model selection was based primarily on statistical fit and robustness rather than comparison among competing computational theories.</li>
 </ul>
 <h2 id="next-steps">Next Steps</h2>
-<p>Future work will extend this framework through Bayesian and hierarchical modeling approaches, allowing more flexible characterization of uncertainty, individual differences, and reaction-time distributions. Additional directions include application to broader cognitive-control paradigms and formal comparison of competing theoretical models.</p>
+<p>Future work will extend the behavioral analysis toward explicit computational modeling of reinforcement-learning and decision-making mechanisms. Candidate extensions include hierarchical Bayesian reinforcement-learning models, trial-by-trial parameter estimation, and formal comparison of alternative learning and choice mechanisms.</p>
+<p>Additional work could examine whether the observed group-specific trajectories can be explained by differences in learning rate, exploration, value updating, or decision noise. Combining computational modeling with the present mixed-effects framework would provide a stronger bridge between observable behavioral trajectories and latent cognitive mechanisms.</p>
 <h2 id="resources-and-outputs">Resources and Outputs</h2>
 <ul>
-<li><a href="https://github.com/erfanjaripour/stroop-interference">GitHub Repository</a></li>
-<li><a href="https://doi.org/10.21203/rs.3.rs-10287577/v1">Preprint</a></li>
-<li><a href="https://osf.io/kxpqu/overview">Open Dataset (OSF)</a></li>
+<li><a href="https://github.com/erfanjaripour/trial-by-trial-behavioral-adaptation">GitHub Repository</a></li>
+<li><a href="https://osf.io/f3t2a/overview">Open Dataset (OSF)</a></li>
 </ul>
 
     </div>

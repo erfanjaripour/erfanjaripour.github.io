@@ -19,19 +19,19 @@ Research projects investigating computational models of memory, learning, and co
 <article class="block">
 
     <a class="inline-link" href="{{ .RelPermalink }}">
-        <h2 class="card-title">{{ .Title }}</h2>
+        <h2>{{ .Title }}</h2>
     </a>
 
     <p class="card-meta mt-2">
       {{ .Date.Format "January 2006" }} · {{ .Params.status }}
     </p>
 
-    <div class="card-preview mt-3">
+    <div class="card-preview mt-3 mb-3">
         {{ .Params.preview }}
     </div>
 
     {{ with .Params.research_question }}
-    <div class="secondary-content mt-2">
+    <div class="secondary-content">
         <strong>Research Question</strong>
         <p>{{ . }}</p>
     </div>

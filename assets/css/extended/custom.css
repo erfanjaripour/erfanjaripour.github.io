@@ -241,6 +241,7 @@ a.inline-link:hover {
     padding-left: 1rem;
 }
 
+
 /* ---------- Cards ---------- */
 
 .card{
@@ -291,22 +292,6 @@ a.inline-link:hover {
 
 }
 
-/* ---------- List Items ---------- */
-
-.list-item{
-    padding-left:var(--space-4);
-    border-left:2px solid var(--border-color);
-    transition:border-color var(--transition);
-}
-
-
-.list-link:hover{
-    text-decoration:none;
-}
-
-.list-link:hover .list-item{
-    border-left-color:var(--primary);
-}
 
 /* ---------- Metadata ---------- */
 
@@ -334,6 +319,7 @@ a.inline-link:hover {
 
 }
 
+
 /* ---------- Stack and Block ---------- */
 
 .stack{
@@ -342,7 +328,7 @@ a.inline-link:hover {
 
     flex-direction:column;
 
-    gap:var(--space-3);
+    gap:var(--space-4);
 
     margin-top: 0;
 
@@ -460,6 +446,7 @@ a.inline-link:hover {
 
 }
 
+
 /* ---------- Spacing ---------- */
 
 .mt-1 { margin-top: var(--space-1); }
@@ -471,6 +458,7 @@ a.inline-link:hover {
 .mb-2 { margin-bottom: var(--space-2); }
 .mb-3 { margin-bottom: var(--space-3); }
 .mb-4 { margin-bottom: var(--space-4); }
+
 
 /* ---------- MOBILE NAVIGATION ---------- */
 
@@ -639,6 +627,7 @@ body.menu-open .menu-toggle{
 .menu.no-transition *{
     transition:none !important;
 }
+
 
 /* ---------- GLOBAL ---------- */
 

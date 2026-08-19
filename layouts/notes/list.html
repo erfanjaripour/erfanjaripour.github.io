@@ -12,35 +12,31 @@ Research notes documenting observations, methodological decisions, technical cha
 
 <section>
 
-<div class="stack">
+<div class="stack-block">
 
 {{ range .Pages.ByDate.Reverse }}
 
-<a class="list-link" href="{{ .RelPermalink }}">
+<article class="block">
 
-    <article class="list-item mb-2">
+    <a class="inline-link" href="{{ .RelPermalink }}">
+        <h3>{{ .Title }}</h3>
+    </a>
 
-        <h3 class="mt-2">
-            {{ .Title }}
-        </h3>
+    <p class="card-meta mt-2">
+        {{ .Date.Format "2 January 2006" }}
+    </p>
 
-        <p class="card-meta mt-2">
-            {{ .Date.Format "2 January 2006" }}
-        </p>
+    {{ with .Params.preview }}
+    <p class="card-preview mt-3">
+        {{ . }}
+    </p>
+    {{ end }}
 
-        {{ with .Params.preview }}
-        <p class="card-preview mt-3">
-            {{ . }}
-        </p>
-        {{ end }}
+    <p class="card-meta mt-2">
+      {{ .Params.project_title }}
+    </p>
 
-        <p class="card-meta mt-1">
-          {{ .Params.project_title }}
-        </p>
-
-    </article>
-
-</a>
+</article>
 
 {{ end }}
 

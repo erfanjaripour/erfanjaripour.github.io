@@ -5,11 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | Erfan Jaripour</title>
+<title>Adapting the Repository Structure | Erfan Jaripour</title>
 <meta name="keywords" content="">
-<meta name="description" content="Personal academic website of Erfan Jaripour. Research in computational cognitive science, Bayesian cognitive modeling, working memory, learning.">
+<meta name="description" content="
+After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.">
 <meta name="author" content="Erfan Jaripour">
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fb23a4d9f50099b5fe2532599c1edc491a6689e10f8bac73d82359ca240f2a30.css" integrity="sha256-&#43;yOk2fUAmbX&#43;JTJZnB7cSRpmieEPi6xz2CNZyiQPKjA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/">
 <noscript>
     <style>
         #theme-toggle,
@@ -209,12 +209,49 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Tags</h1>
-</header>
 
-<ul class="terms-tags">
-</ul>
+<article class="post-single">
+
+    <header class="page-header">
+
+        <h1>Adapting the Repository Structure</h1>
+
+        
+
+        <p class="card-meta">
+            17 August 2026
+        </p>
+
+	
+	<p class="secondary-content">
+  	  <strong>Associated Project:</strong>
+ 	   <a class="inline-link" href="/research/trial-by-trial-behavioral-adaptation/">
+  	      Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task
+ 	   </a>
+	</p>
+	
+
+        
+
+    </header>
+
+    <hr>
+
+    <div class="post-content">
+        <!-- Situation -->
+<p>After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.</p>
+<!-- Data -->
+<p>The main problem appeared after the modeling, in visualizing and exporting the results. I had three main notebooks, supported by R scripts, including a data inspection notebook, an exploratory data analysis notebook, and a modeling notebook. I used this structure throughout the project as I had planned. As a result, the modeling notebook and the models R script contained the code for exporting the final results. This did not create a reproducibility problem, but the larger files became harder to review and navigate.</p>
+<!-- Inference -->
+<p>A repository structure that works well for a small project may not work as well for a larger project. Keeping a project simple is useful, but the structure should also make different parts of the analysis easy to find and review. I think that adding a separate results notebook and script would have made the final stage easier to manage while keeping the repository simple.</p>
+<!-- Action -->
+<p>By considering the size and complexity of the project when I design the repository structure, I will try to keep the structure as simple as possible, but also use additional notebooks and scripts when they make the project easier to organize, review, and reproduce.</p>
+
+    </div>
+
+</article>
+
+
     </main>
     
 <footer class="footer">

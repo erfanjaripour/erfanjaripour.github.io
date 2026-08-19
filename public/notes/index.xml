@@ -6,8 +6,36 @@
     <description>Recent content in Research Journal on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing the Right Modeling Approach</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</link>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;One important modeling decision I made during the trial-by-trial behavioral adaptation project was to reconsider the role of Bayesian modeling in the analysis. I planned initially to include a Bayesian mixed-effects model alongside the frequentist analysis. The goal was to provide a complementary approach and examine whether the main conclusions were consistent across the two methods.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;During the modeling phase, however, the Bayesian model became computationally demanding. The dataset contained a large number of trial-level observations and required a hierarchical structure with participant-level variation and nonlinear trial effects. Fitting and evaluating the Bayesian model required much more time and computational resources than the primary frequentist mixed-effects models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Git Commit Scope</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;One important lesson I learned while working on a larger project was to manage the scope of Git commits more carefully. I already knew that each commit should represent a clear change. However, the challenge was keeping the scope of each change under control as the project became more complex.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;I usually committed my changes at the end of each day. Even when several files needed to be committed separately, I was able to organize them into appropriate commits. As the project became larger, however, this became more difficult. At the end of one day, I faced a large set of changes that was very difficult to track.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adapting the Repository Structure</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Following the Analysis Plan</title>
       <link>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</link>

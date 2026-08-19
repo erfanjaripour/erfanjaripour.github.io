@@ -6,8 +6,55 @@
     <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing the Right Modeling Approach</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</link>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;One important modeling decision I made during the trial-by-trial behavioral adaptation project was to reconsider the role of Bayesian modeling in the analysis. I planned initially to include a Bayesian mixed-effects model alongside the frequentist analysis. The goal was to provide a complementary approach and examine whether the main conclusions were consistent across the two methods.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;During the modeling phase, however, the Bayesian model became computationally demanding. The dataset contained a large number of trial-level observations and required a hierarchical structure with participant-level variation and nonlinear trial effects. Fitting and evaluating the Bayesian model required much more time and computational resources than the primary frequentist mixed-effects models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing Git Commit Scope</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;One important lesson I learned while working on a larger project was to manage the scope of Git commits more carefully. I already knew that each commit should represent a clear change. However, the challenge was keeping the scope of each change under control as the project became more complex.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;I usually committed my changes at the end of each day. Even when several files needed to be committed separately, I was able to organize them into appropriate commits. As the project became larger, however, this became more difficult. At the end of one day, I faced a large set of changes that was very difficult to track.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adapting the Repository Structure</title>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
+      <description>&lt;!-- Situation --&gt;
+&lt;p&gt;After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task</title>
+      <link>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data from an openly available dataset, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.&lt;/p&gt;
+&lt;p&gt;The primary analysis uses logistic mixed-effects modeling to characterize trial-by-trial changes in the probability of selecting the option with the highest trial-specific payoff while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters or computational learning mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach</title>
+      <link>http://localhost:1313/publications/trial-by-trial-behavioral-adaptation/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/trial-by-trial-behavioral-adaptation/</guid>
+      <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.&lt;/em&gt; Research Square Preprint.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Adaptive decision-making requires individuals to modify behavior as reward environments change over time. Restless bandit tasks provide a framework for studying behavioral adaptation under dynamic conditions, although observable changes do not necessarily reveal latent cognitive mechanisms. The present study examined trial-by-trial behavioral adaptation in a four-arm restless bandit task using a publicly available dataset of 965 participants and 139,816 analyzed trials. Rather than estimating latent reinforcement-learning parameters, the study examined observable outcomes, trial-related change, differences across payoff environments, and individual differences in baseline behavior and adaptation. Mixed-effects models were fitted to payoff-maximizing choice, obtained reward, log-transformed reaction time, and choice switching. The primary analysis used a quadratic trial trajectory with payoff-environment interactions and participant-specific random intercepts, linear slopes, and quadratic slopes. The quadratic model provided substantially better AIC fit than the corresponding linear interaction model. Payoff-maximizing choice showed distinct linear and quadratic trajectories across payoff environments, while participants varied in baseline performance and trial-related change. Secondary analyses showed different reward trajectories across payoff environments, decreasing reaction times across trials without clear payoff-group differences, and decreasing choice switching, with evidence that this trajectory differed for Group 3 but not Group 4 relative to the reference environment. These findings indicate nonlinear changes in observable decision behavior during repeated decisions in a dynamic reward environment. Because latent values, beliefs, and learning parameters were not estimated, the findings do not identify the mechanisms underlying these changes. Instead, they provide a quantitative characterization of observable behavioral adaptation and a basis for future computational investigations of decision-making in dynamic environments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Following the Analysis Plan</title>
       <link>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</link>
@@ -24,10 +71,9 @@
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.&lt;/em&gt; Preprint.&lt;/p&gt;
+&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.&lt;/em&gt; Research Square Preprint. &lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10469232/v1&#34;&gt;https://doi.org/10.21203/rs.3.rs-10469232/v1&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Visual working memory is limited in both capacity and precision, and computational models increasingly aim to characterize how memory representations vary with increasing load and across individuals. The present study applied hierarchical Bayesian modeling to a publicly available continuous-report visual working-memory dataset to examine the relationship between memory load and precision while comparing alternative statistical representations of performance. Trial-level angular errors from three experiments were analyzed using Bayesian models with von Mises likelihoods. The evaluated models included a null hierarchical model with no memory-load effect, a hierarchical model estimating a population-level effect of set size with participant-specific variation, and a nonlinear hierarchical model allowing independent set-size effects through a sum-to-zero parameterization. Model performance was evaluated using posterior predictive checks, convergence diagnostics, and approximate leave-one-out cross-validation.
-Results showed that memory precision decreased systematically as memory load increased and that participants exhibited substantial differences in baseline precision. The nonlinear hierarchical model achieved the strongest predictive performance among the evaluated models, indicating that the relationship between memory load and precision was not fully captured by a simple linear representation. Robustness analyses demonstrated that the primary conclusions remained stable across alternative prior specifications, sampling configurations, and posterior initializations. These findings highlight the value of hierarchical Bayesian approaches for modeling individual variability in visual working-memory performance and demonstrate the utility of reproducible computational workflows for evaluating statistical models using open behavioral datasets.&lt;/p&gt;</description>
+&lt;p&gt;Visual working memory is limited in both capacity and precision, and computational models increasingly aim to characterize how memory representations vary with increasing load and across individuals. The present study applied hierarchical Bayesian modeling to a publicly available continuous-report visual working-memory dataset to examine the relationship between memory load and precision while comparing alternative statistical representations of performance. Trial-level angular errors from three experiments were analyzed using Bayesian models with von Mises likelihoods. The evaluated models included a null hierarchical model with no memory-load effect, a hierarchical model estimating a population-level effect of set size with participant-specific variation, and a nonlinear hierarchical model allowing independent set-size effects through a sum-to-zero parameterization. Model performance was evaluated using posterior predictive checks, convergence diagnostics, and approximate leave-one-out cross-validation. Results showed that memory precision decreased systematically as memory load increased and that participants exhibited substantial differences in baseline precision. The nonlinear hierarchical model achieved the strongest predictive performance among the evaluated models, indicating that the relationship between memory load and precision was not fully captured by a simple linear representation. Robustness analyses demonstrated that the primary conclusions remained stable across alternative prior specifications, sampling configurations, and posterior initializations. These findings highlight the value of hierarchical Bayesian approaches for modeling individual variability in visual working-memory performance and demonstrate the utility of reproducible computational workflows for evaluating statistical models using open behavioral datasets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hierarchical Bayesian Modeling of Visual Working Memory Precision</title>
