@@ -121,4 +121,5 @@ Additional work could examine whether the observed group-specific trajectories c
 ## Resources and Outputs
 
 * [GitHub Repository](https://github.com/erfanjaripour/trial-by-trial-behavioral-adaptation)
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10740751/v1)
 * [Open Dataset (OSF)](https://osf.io/f3t2a/overview)

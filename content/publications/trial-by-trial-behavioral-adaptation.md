@@ -13,7 +13,7 @@ project_url: "/research/trial-by-trial-behavioral-adaptation/"
 
 ## Citation
 
-Jaripour, E. (2026). *Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.* Research Square Preprint.
+Jaripour, E. (2026). *Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.* Research Square Preprint. https://doi.org/10.21203/rs.3.rs-10740751/v1
 
 ## Abstract
 
@@ -29,5 +29,6 @@ Adaptive decision-making requires individuals to modify behavior as reward envir
 
 ## Resources
 
+* [Preprint](https://doi.org/10.21203/rs.3.rs-10740751/v1)
 * [GitHub Repository](https://github.com/erfanjaripour/trial-by-trial-behavioral-adaptation)
 * [Open Dataset (OSF)](https://osf.io/kxpqu/overview)
