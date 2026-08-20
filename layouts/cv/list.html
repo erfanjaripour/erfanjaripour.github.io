@@ -1,18 +1,20 @@
 {{ define "main" }}
 
+<!-- CV -->
+
 <section>
 
-    <h1>Curriculum Vitae</h1>
+    <h1>{{ .Title }}</h1>
 
     <p class="page-intro">
-        This page provides a summary of my academic background, research experience, and technical expertise. A complete curriculum vitae is available as a PDF.
+        {{ .Params.description }}
     </p>
 
-<p class="mt-3">
-    <a class="inline-link" href="/erfanjaripour-cv.pdf">
-        Download CV
-    </a>
-</p>
+    <p class="mt-3">
+        <a class="inline-link" href="{{ .Params.cv_pdf }}">
+            Download CV
+        </a>
+    </p>
 
 </section>
 
@@ -20,32 +22,38 @@
 
     <h2>Education</h2>
 
+    {{ range .Params.education }}
+
     <div class="mt-3">
 
         <div class="cv-entry-head">
 
             <div class="cv-entry-title">
-                <strong>B.Sc. in Psychology</strong>,
-                 Islamic Azad University, Tehran, Iran
+                <strong>{{ .degree }}</strong>,
+                {{ .institution }}
             </div>
 
             <div class="cv-entry-date">
-                2021–2025
+                {{ .dates }}
             </div>
 
         </div>
 
         <div>
 
-        <p class="mt-2">GPA: 19.55/20</p>
+            {{ range .details }}
+            <p class="mt-2">{{ . }}</p>
+            {{ end }}
 
-        <p class="mt-2">Thesis: Relationship Between Psychological Disorders and Defense Mechanisms in Adolescents</p>
-
-        <p class="metadata-label mt-2">Supervisor: Dr. Hamid Reza Vatankhah</p>
+            <p class="metadata-label mt-2">
+                Supervisor: {{ .supervisor }}
+            </p>
 
         </div>
 
     </div>
+
+    {{ end }}
 
 </section>
 
@@ -53,27 +61,31 @@
 
     <h2>Research Experience</h2>
 
+    {{ range .Params.research_experience }}
+
     <div class="mt-3">
 
         <div class="cv-entry-head">
 
-            <a class="inline-link" href="/research/">
+            <a class="inline-link" href="{{ .url }}">
                 <h3 class="cv-entry-title">
-                    Independent Computational Research Projects
+                    {{ .title }}
                 </h3>
             </a>
 
             <div class="cv-entry-date">
-                2026–Present
+                {{ .dates }}
             </div>
 
-         </div>
+        </div>
 
-            <p class="mt-2">
-                Independent research in computational cognitive science using behavioral data, statistical modeling, Bayesian inference, and reproducible computational workflows.
-            </p>
+        <p class="mt-2">
+            {{ .description }}
+        </p>
 
     </div>
+
+    {{ end }}
 
 </section>
 
@@ -81,24 +93,19 @@
 
     <h2>Publications</h2>
 
-    <p class="mt-3">
-        <a class="inline-link" href="/publications/trial-by-trial-behavioral-adaptation/">
-            Jaripour, E. (2026). <em>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.</em> Research Square Preprint.
-        </a>
-    </p>
+    {{ range .Params.publications }}
 
     <p class="mt-3">
-        <a class="inline-link" href="/publications/hierarchical-bayesian-working-memory/">
-            Jaripour, E. (2026). <em>Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.</em> Research Square Preprint.
+
+        <a class="inline-link" href="{{ .url }}">
+            {{ .citation }}
+            <em>{{ .title }}</em>
+            {{ .venue }}
         </a>
+
     </p>
 
-
-    <p class="mt-3">
-        <a class="inline-link" href="/publications/stroop-interference/">
-            Jaripour, E. (2026). <em>Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.</em> Research Square Preprint.
-        </a>
-    </p>
+    {{ end }}
 
 </section>
 

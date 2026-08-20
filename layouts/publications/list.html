@@ -1,43 +1,45 @@
 {{ define "main" }}
 
+<!-- Publications -->
+
 <section>
 
-<h1>Publications</h1>
+    <h1>{{ .Title }}</h1>
 
-<p class="page-intro">
-Publications, preprints, and other scholarly outputs related to my research.
-</p>
+    <p class="page-intro">
+        {{ .Params.description }}
+    </p>
 
 </section>
 
 <section>
 
-<div class="stack">
+    <div class="stack">
 
-{{ range .Pages.ByDate.Reverse }}
+        {{ range .Pages.ByDate.Reverse }}
 
-<p class="publication-citation">
+        <p class="publication-citation">
 
-  <a class="inline-link" href="{{ .RelPermalink }}">
+            <a class="inline-link" href="{{ .RelPermalink }}">
 
-    {{ .Params.authors }}
-    ({{ .Params.year }}).
+                {{ .Params.authors }}
+                ({{ .Params.year }}).
 
-    <span class="publication-title">
-      {{ .Title }}.
-    </span>
+                <span class="publication-title">
+                    {{ .Title }}.
+                </span>
 
-    {{ .Params.venue }}
+                {{ .Params.venue }}
 
-    {{ .Params.status }}.
+                {{ .Params.status }}.
 
-  </a>
+            </a>
 
-</p>
+        </p>
 
-{{ end }}
+        {{ end }}
 
-</div>
+    </div>
 
 </section>
 

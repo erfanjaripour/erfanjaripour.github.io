@@ -1,60 +1,61 @@
 {{ define "main" }}
 
+<!-- Research -->
+
 <section>
 
-<h1>Research</h1>
+    <h1>{{ .Title }}</h1>
 
-<p class="page-intro">
-Research projects investigating computational models of memory, learning, and cognitive control through behavioral analysis, statistical inference, and computational modeling.
-</p>
+    <p class="page-intro">
+        {{ .Params.description }}
+    </p>
 
 </section>
 
 <section>
 
-<div class="stack-block">
+    <div class="stack-block">
 
-{{ range .Pages.ByDate.Reverse }}
+        {{ range .Pages.ByDate.Reverse }}
 
-<article class="block">
+        <article class="block">
 
-    <a class="inline-link" href="{{ .RelPermalink }}">
-        <h2>{{ .Title }}</h2>
-    </a>
+            <a class="inline-link" href="{{ .RelPermalink }}">
+                <h2>{{ .Title }}</h2>
+            </a>
 
-    <p class="card-meta mt-2">
-      {{ .Date.Format "January 2006" }} · {{ .Params.status }}
-    </p>
+            <p class="card-meta mt-2">
+                {{ .Date.Format "January 2006" }} · {{ .Params.status }}
+            </p>
 
-    <div class="card-preview mt-3 mb-3">
-        {{ .Params.preview }}
-    </div>
+            <div class="card-preview mt-3 mb-3">
+                {{ .Params.preview }}
+            </div>
 
-    {{ with .Params.research_question }}
-    <div class="secondary-content">
-        <strong>Research Question</strong>
-        <p>{{ . }}</p>
-    </div>
-    {{ end }}
-
-    {{ with .Params.methods }}
-    <div class="secondary-content mt-2">
-        <strong>Methods</strong>
-        <p>
-            {{ range $i, $method := . }}
-                {{ if gt $i 0 }} · {{ end }}
-                {{ $method }}
+            {{ with .Params.research_question }}
+            <div class="secondary-content">
+                <strong>Research Question</strong>
+                <p>{{ . }}</p>
+            </div>
             {{ end }}
-        </p>
+
+            {{ with .Params.methods }}
+            <div class="secondary-content mt-2">
+                <strong>Methods</strong>
+                <p>
+                    {{ range $i, $method := . }}
+                        {{ if gt $i 0 }} · {{ end }}
+                        {{ $method }}
+                    {{ end }}
+                </p>
+            </div>
+            {{ end }}
+
+        </article>
+
+        {{ end }}
+
     </div>
-    {{ end }}
-
-
-</article>
-
-{{ end }}
-
-</div>
 
 </section>
 

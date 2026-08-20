@@ -1,46 +1,48 @@
 {{ define "main" }}
 
+<!-- Notes -->
+
 <section>
 
-<h1>Research Notes</h1>
+    <h1>{{ .Title }}</h1>
 
-<p class="page-intro">
-Research notes documenting observations, methodological decisions, technical challenges, and insights throughout ongoing research projects.
-</p>
+    <p class="page-intro">
+        {{ .Params.description }}
+    </p>
 
 </section>
 
 <section>
 
-<div class="stack-block">
+    <div class="stack-block">
 
-{{ range .Pages.ByDate.Reverse }}
+        {{ range .Pages.ByDate.Reverse }}
 
-<article class="block">
+        <article class="block">
 
-    <a class="inline-link" href="{{ .RelPermalink }}">
-        <h3>{{ .Title }}</h3>
-    </a>
+            <a class="inline-link" href="{{ .RelPermalink }}">
+                <h3>{{ .Title }}</h3>
+            </a>
 
-    <p class="card-meta mt-2">
-        {{ .Date.Format "2 January 2006" }}
-    </p>
+            <p class="card-meta mt-2">
+                {{ .Date.Format "2 January 2006" }}
+            </p>
 
-    {{ with .Params.preview }}
-    <p class="card-preview mt-3">
-        {{ . }}
-    </p>
-    {{ end }}
+            {{ with .Params.preview }}
+            <p class="card-preview mt-3">
+                {{ . }}
+            </p>
+            {{ end }}
 
-    <p class="card-meta mt-2">
-      {{ .Params.project_title }}
-    </p>
+            <p class="card-meta mt-2">
+                {{ .Params.project_title }}
+            </p>
 
-</article>
+        </article>
 
-{{ end }}
+        {{ end }}
 
-</div>
+    </div>
 
 </section>
 
