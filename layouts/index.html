@@ -10,14 +10,6 @@
 
   <p class="mt-3">{{ .Params.research_statement }}</p>
 
-<h3 class="mt-4">Research Interests</h3>
-
-    <p class="mt-2">
-      {{ range $i, $item := .Params.research_interests }}
-        {{ if $i }} · {{ end }}{{ $item }}
-      {{ end }}
-    </p>
-
 </section>
 
 <section>
@@ -53,22 +45,6 @@
   {{ end }}
 
   </div>
-
-</section>
-
-<section>
-
-  <h2>Research Questions</h2>
-
-  <ul class="list mt-3">
-
-    {{ range .Params.research_questions }}
-
-    <li>{{ . }}</li>
-
-    {{ end }}
-
-  </ul>
 
 </section>
 

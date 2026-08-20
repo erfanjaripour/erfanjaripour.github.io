@@ -1,5 +1,5 @@
 ---
 title: "Research Notes"
 
-description: "Research notes documenting observations, methodological decisions, technical challenges, and insights throughout ongoing research projects."
+description: "Research notes documenting methodological decisions, analytical reasoning, and lessons learned throughout my research."
 ---

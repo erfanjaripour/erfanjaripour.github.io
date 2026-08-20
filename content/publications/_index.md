@@ -1,5 +1,5 @@
 ---
 title: "Publications"
 
-description: "Publications, preprints, and other scholarly outputs related to my research."
+description: "Publications and preprints from my research in computational cognitive science."
 ---

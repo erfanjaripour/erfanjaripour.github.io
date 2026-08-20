@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 
-description: "This page provides a summary of my academic background, research experience, and technical expertise. A complete curriculum vitae is available as a PDF."
+description: "A concise overview of my academic background, research experience, and publications."
 
 cv_pdf: "/erfanjaripour-cv.pdf"
 
@@ -22,17 +22,6 @@ research_experience:
 
 publications:
   - url: "/publications/trial-by-trial-behavioral-adaptation/"
-    citation: "Jaripour, E. (2026)."
-    title: "Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach."
-    venue: "Research Square Preprint."
-
   - url: "/publications/hierarchical-bayesian-working-memory/"
-    citation: "Jaripour, E. (2026)."
-    title: "Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision."
-    venue: "Research Square Preprint."
-
   - url: "/publications/stroop-interference/"
-    citation: "Jaripour, E. (2026)."
-    title: "Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis."
-    venue: "Research Square Preprint."
 ---

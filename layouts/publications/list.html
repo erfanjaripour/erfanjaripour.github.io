@@ -20,20 +20,19 @@
 
         <p class="publication-citation">
 
-            <a class="inline-link" href="{{ .RelPermalink }}">
+            {{ .Params.authors }}
+            ({{ .Params.year }}).
 
-                {{ .Params.authors }}
-                ({{ .Params.year }}).
+            <a class="inline-link" href="{{ .RelPermalink }}">
 
                 <span class="publication-title">
                     {{ .Title }}.
                 </span>
 
-                {{ .Params.venue }}
-
-                {{ .Params.status }}.
-
             </a>
+
+            {{ .Params.venue }}
+            {{ .Params.status }}.
 
         </p>
 
