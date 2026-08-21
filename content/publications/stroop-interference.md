@@ -13,7 +13,10 @@ project_url: "/research/stroop-interference/"
 
 ## Citation
 
-Jaripour, E. (2026). *Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.* Research Square Preprint. https://doi.org/10.21203/rs.3.rs-10287577/v1
+Jaripour, E. (2026).
+*Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.*
+Research Square Preprint.
+[DOI: 10.21203/rs.3.rs-10287577/v1](https://doi.org/10.21203/rs.3.rs-10287577/v1)
 
 ## Abstract
 

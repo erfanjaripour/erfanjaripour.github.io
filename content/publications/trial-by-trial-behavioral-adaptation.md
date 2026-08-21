@@ -13,7 +13,10 @@ project_url: "/research/trial-by-trial-behavioral-adaptation/"
 
 ## Citation
 
-Jaripour, E. (2026). *Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.* Research Square Preprint. https://doi.org/10.21203/rs.3.rs-10740751/v1
+Jaripour, E. (2026).
+*Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.*
+Research Square Preprint.
+[DOI: 10.21203/rs.3.rs-10740751/v1](https://doi.org/10.21203/rs.3.rs-10740751/v1)
 
 ## Abstract
 

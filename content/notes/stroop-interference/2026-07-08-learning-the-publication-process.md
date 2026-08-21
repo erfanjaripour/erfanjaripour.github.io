@@ -10,17 +10,16 @@ project_url: "/research/stroop-interference/"
 
 <!-- Situation -->
 
-I recently attempt to publish my preprint on psyarxiv. After a day of prescreening, it rejected not because my quality of preprint, but because it is my first publicaiton and I have note any publication before. Although it is logical in science that your first work being a colaborative work, but in my case with the independent research, I happended to me. but it did not feel like a failior to me, it actually makes me exited because it reminds me that a seriouse scientific career just started for me.
+I recently attempted to publish my preprint on PsyArXiv. After a day of prescreening, the submission was not accepted because I did not have a previous publication, rather than because of an identified issue with the scientific content of the preprint. This was my first experience with the publication process as an independent researcher, and it highlighted an aspect of research dissemination that I had not previously encountered.
 
 <!-- Data -->
 
-Publishing research involves more than the analysis and writing the manuscript. Different repositories have different screening procedures and submission policies, and an initial submission may not always lead to publication on the first attempt. After reviewing my options, I submitted the preprint to another repository, where it is currently under prescreening.
+Publishing research is a complicated process that involves more than analysis and writing the manuscript. Different repositories and journals have their own screening procedures, submission requirements, and eligibility criteria. An initial submission may therefore be unsuccessful even when the manuscript itself does not receive a scientific rejection. I submitted the preprint to another repository, where it is currently undergoing prescreening.
 
-<!-- Inferenc -->
+<!-- Inference -->
 
-It was my first experience with editorial screening, and it gave me a more realistic understanding of scientific publishing. Rejection and revision are normal parts of research, and they should be viewed as opportunities to improve my publication strategy rather than as indicators of research quality.
-
+This experience provided a more realistic understanding of the practical aspects of scientific publishing. Research dissemination depends not only on the quality of the analysis and manuscript, but also on understanding the policies and requirements of the venues through which research is shared. Distinguishing administrative or editorial screening from scientific evaluation is an important part of interpreting a submission outcome.
 
 <!-- Action -->
 
-I will continue learning about publication policies and research dissemination, working toward the preprint's public release, and looking forward to strengthening my research and becoming more engaged with the scientific community through future collaborations and mentorship opportunities.
+I will continue learning about publication policies and research dissemination while working toward the public release of the preprint. I also aim to strengthen my research through further independent projects, collaboration, and mentorship as I continue developing as a researcher.

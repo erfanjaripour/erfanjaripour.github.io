@@ -8,9 +8,11 @@ project_title: "Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task"
 project_url: "/research/trial-by-trial-behavioral-adaptation/"
 ---
 
+
+
 <!-- Situation -->
 
-After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.
+The trial-by-trial behavioral adaptation project was larger than my two previous research projects and introduced several new challenges in organizing the analysis. I followed the planned minimalist repository structure and kept the project organized throughout development. As the analysis became more complex, however, I found that the same structure became increasingly difficult to navigate and review.
 
 <!-- Data -->
 
@@ -18,8 +20,8 @@ The main problem appeared after the modeling, in visualizing and exporting the r
 
 <!-- Inference -->
 
-A repository structure that works well for a small project may not work as well for a larger project. Keeping a project simple is useful, but the structure should also make different parts of the analysis easy to find and review. I think that adding a separate results notebook and script would have made the final stage easier to manage while keeping the repository simple.
+A repository structure that works well for a small project may not scale effectively to a larger analysis. Simplicity is valuable, but the structure should also make distinct stages of an analysis easy to locate, review, and maintain. Separating final result generation into a dedicated notebook and script would have improved the organization of the final stages without substantially increasing the complexity of the repository.
 
 <!-- Action -->
 
-By considering the size and complexity of the project when I design the repository structure, I will try to keep the structure as simple as possible, but also use additional notebooks and scripts when they make the project easier to organize, review, and reproduce.
+By considering the size and complexity of the project when designing the repository structure, I will try to keep the structure as simple as possible, but also use additional notebooks and scripts when they improve organization, review, and reproducibility.

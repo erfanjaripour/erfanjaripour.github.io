@@ -5,21 +5,21 @@ date: 2026-07-03
 preview: "Learning the foundations of Bayesian inference highlighted for me the role of evidence and uncertainty in statistical reasoning."
 
 project_title: "Computational Cognitive Science Training Portfolio"
-project_url: "/research/computational-training/"
+project_url: "https://github.com/erfanjaripour/computational-cognitive-science-training-portfolio"
 ---
 
 <!-- Situation -->
 
-I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes' theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.
+I recently started learning Bayesian methods as part of my computational cognitive science training. After completing the first practice notebooks on Bayes' theorem and basic Bayesian inference, I became interested not only in the statistical methods themselves but also in the underlying approach to reasoning.
 
 <!-- Data -->
 
-Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior beliefs are combined with new evidence to produce revised conclusions, while uncertainty remains a part of the process. This approach reminded me of scientific research itself, where conclusions are constantly refined as more evidence becomes available. Although Bayesian inference is only one framework for statistical reasoning, I found its emphasis on evidence-based belief updating closely aligned with how I think scientific investigation should be.
+Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior information is combined with observed data to produce updated conclusions while explicitly representing uncertainty. Learning these foundations helped me understand how Bayesian methods differ from approaches that focus primarily on point estimates and fixed conclusions.
 
 <!-- Inference -->
 
-For me, learning Bayesian methods is beyond statistical modeling. I see Bayesian inference not only as a collection of computational techniques but also as a structured way of reasoning. I believe that scientific conclusions, like Bayesian inferences, should remain open to revision when new evidence becomes available.
+Learning Bayesian inference highlighted the importance of treating uncertainty as an integral part of statistical reasoning. It also provided a useful perspective on scientific inference: conclusions should be informed by available evidence while remaining open to revision as additional evidence becomes available. I found this combination of probabilistic modeling, uncertainty, and evidence particularly relevant to computational cognitive science.
 
 <!-- Action -->
 
-I plan to continue studying Bayesian methods and also reading more about their role in the philosophy of scientific inference. My goal is to understand both the mathematical foundations and the reasoning framework behind Bayesian approaches.
+I plan to continue studying Bayesian methods, with greater emphasis on their mathematical foundations, computational implementation, and application to cognitive science. I also aim to develop a deeper understanding of when Bayesian approaches provide meaningful scientific advantages over alternative statistical frameworks.

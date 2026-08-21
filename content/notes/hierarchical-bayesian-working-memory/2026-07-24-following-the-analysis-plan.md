@@ -10,7 +10,7 @@ project_url: "/research/hierarchical-bayesian-working-memory/"
 
 <!-- Situation -->
 
-The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match what I expected from the analysis. I decided to review the entire workflow and recreate the figures to verify the results.
+The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match the expected results. I decided to review the entire workflow and recreate the figures to verify the results.
 
 <!-- Data -->
 
@@ -18,7 +18,7 @@ I found that some analysis steps had not been documented as clearly as they shou
 
 <!-- Inference -->
 
-This reminded me of the essential role of careful verification in research. Exploring new ideas during an analysis is a natural part of scientific work, but every change should be tracked carefully. Keeping a clear record of the final analysis pipeline makes it easier to verify results and avoid mistakes before publication.
+This highlighted the essential role of careful verification in research. Exploring new ideas during an analysis is a natural part of scientific work, but every change should be tracked carefully. Keeping a clear record of the final analysis pipeline makes it easier to verify results and avoid mistakes before publication.
 
 <!-- Action -->
 

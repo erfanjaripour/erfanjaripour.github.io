@@ -18,7 +18,7 @@ During the modeling phase, however, the Bayesian model became computationally de
 
 <!-- Inference -->
 
-This made me reconsider whether the Bayesian model would meaningfully improve the study. A second modeling approach is useful when it provides additional scientific value. In this case, the main research question could be addressed directly with frequentist mixed-effects models. In contrast, the Bayesian model added substantial computational complexity without being necessary for the main conclusions. I decided that including it would make the analysis more complex without providing enough additional value.
+This made me reconsider whether the Bayesian model would meaningfully improve the study. A second modeling approach is useful when it provides additional scientific value. In this case, the main research question could be addressed directly with frequentist mixed-effects models, while the Bayesian model did not provide sufficient additional scientific value to justify its computational complexity.
 
 <!-- Action -->
 

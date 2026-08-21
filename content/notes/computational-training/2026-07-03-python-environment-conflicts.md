@@ -5,7 +5,7 @@ date: 2026-07-03
 preview: "Resolving package conflicts highlighted the importance of stable and reproducible research environments."
 
 project_title: "Computational Cognitive Science Training Portfolio"
-project_url: "/research/computational-training/"
+project_url: "https://github.com/erfanjaripour/computational-cognitive-science-training-portfolio"
 ---
 
 <!-- Situation -->
@@ -14,7 +14,7 @@ During my training in Bayesian methods, I encountered a series of unexpected pro
 
 <!-- Data -->
 
-The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to produce the results. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. So, I replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.
+The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to run successfully. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. I therefore replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.
 
 <!-- Inference -->
 
