@@ -8,7 +8,9 @@
 <title>Hierarchical Bayesian Modeling of Visual Working Memory Precision | Erfan Jaripour</title>
 <meta name="keywords" content="">
 <meta name="description" content="Overview
-This project investigates how memory load influences visual working memory precision using trial-level data from an openly available continuous-report dataset. Using behavioral data from three visual working memory experiments, the study examines whether increasing set size is associated with reduced memory precision and whether individual differences can be captured using hierarchical Bayesian models. The project combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational analysis within an open-science workflow.">
+This project investigates how memory load influences visual working memory precision using trial-level data from three openly available continuous-report experiments. The study examines how precision changes with increasing memory load and whether individual differences in performance can be characterized using hierarchical Bayesian models. The analysis combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational methods within an open-science workflow.
+Research Question
+How does memory load influence visual working memory precision, and can hierarchical Bayesian models characterize individual differences and memory-load effects in continuous-report performance?">
 <meta name="author" content="Erfan Jaripour">
 <link rel="canonical" href="http://localhost:1313/research/hierarchical-bayesian-working-memory/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.70e75602eecb0d08ede9d7a8a24ee996598bf50cec34ad377f3effd3423bb0fd.css" integrity="sha256-cOdWAu7LDQjt6deook7pllmL9QzsNK03fz7/00I7sP0=" rel="preload stylesheet" as="style">
@@ -239,65 +241,60 @@ This project investigates how memory load influences visual working memory preci
 
     <div class="post-content">
         <h2 id="overview">Overview</h2>
-<p>This project investigates how memory load influences visual working memory precision using trial-level data from an openly available continuous-report dataset. Using behavioral data from three visual working memory experiments, the study examines whether increasing set size is associated with reduced memory precision and whether individual differences can be captured using hierarchical Bayesian models. The project combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational analysis within an open-science workflow.</p>
+<p>This project investigates how memory load influences visual working memory precision using trial-level data from three openly available continuous-report experiments. The study examines how precision changes with increasing memory load and whether individual differences in performance can be characterized using hierarchical Bayesian models. The analysis combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational methods within an open-science workflow.</p>
 <h2 id="research-question">Research Question</h2>
-<p>How does memory load influence visual working memory precision, and can hierarchical Bayesian models characterize individual differences and set-size effects in continuous-report performance?</p>
-<h2 id="theoretical-background">Theoretical Background</h2>
-<p>Visual working memory is a central cognitive system that allows temporary storage and manipulation of visual information. Continuous-report tasks have shown that increasing memory load reduces the precision of remembered representations. This pattern has been studied through multiple theoretical accounts, including resource-based, slot-based, and variable-precision models. This project examines memory precision from a computational perspective by evaluating hierarchical Bayesian models that describe how precision changes across memory loads while accounting for individual variability.</p>
-<h2 id="dataset">Dataset</h2>
-<p>The analysis used an openly available visual working memory dataset originally reported by van den Berg et al. (2012) and distributed through the BenchmarksWM repository. The dataset included 37,824 trial-level observations from 13 participants across three continuous-report experiments. Participants reproduced remembered feature values under different memory loads, with performance quantified using circular angular error. The experiments included color memory with scrolling response, orientation memory with rotational response, and color memory with color-wheel response. Data validation confirmed the consistency of the dataset, and no observations were excluded.</p>
-<h2 id="methods">Methods</h2>
-<p>The analysis pipeline included data validation, circular error analysis, descriptive statistics, hierarchical Bayesian modeling, posterior predictive checking, and predictive model comparison. Three Bayesian models were evaluated using a von Mises likelihood: a null model, a hierarchical model with participant-level variability and memory-load effects, and a nonlinear hierarchical model with set-size-specific effects. Models were fitted using Hamiltonian Monte Carlo sampling with the No-U-Turn Sampler (NUTS) implemented in PyMC. Model performance was evaluated using convergence diagnostics, posterior predictive checks, and leave-one-out cross-validation.</p>
+<p>How does memory load influence visual working memory precision, and can hierarchical Bayesian models characterize individual differences and memory-load effects in continuous-report performance?</p>
+<h2 id="data--methods">Data &amp; Methods</h2>
+<p>The analysis used an openly available visual working memory dataset originally reported by van den Berg et al. (2012) and distributed through the BenchmarksWM repository. The dataset comprised <strong>37,824 trial-level observations from 13 participants across three continuous-report experiments</strong>, including color memory with scrolling response, orientation memory with rotational response, and color memory with color-wheel response. Performance was quantified using circular angular error. Data validation confirmed the consistency of the dataset, and no observations were excluded.</p>
+<p>The analysis pipeline included circular error analysis, descriptive statistics, hierarchical Bayesian modeling, posterior predictive checking, and predictive model comparison. Three Bayesian models were evaluated using a von Mises likelihood: a null model, a hierarchical model incorporating participant-level variability and memory-load effects, and a nonlinear hierarchical model with memory-load-specific effects. Models were fitted using Hamiltonian Monte Carlo with the No-U-Turn Sampler (NUTS) implemented in PyMC. Model adequacy and predictive performance were evaluated using convergence diagnostics, posterior predictive checks, and leave-one-out cross-validation.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
 <li>Memory precision decreased systematically as memory load increased.</li>
 <li>Substantial individual differences were observed in baseline visual working memory precision.</li>
-<li>The hierarchical Bayesian model identified a strong negative relationship between set size and memory precision.</li>
-<li>The nonlinear hierarchical model provided the best predictive performance among the tested models.</li>
+<li>The hierarchical Bayesian model estimated a strong negative association between memory load and precision.</li>
+<li>The nonlinear hierarchical model provided the strongest predictive performance among the tested models.</li>
 <li>Posterior predictive checks showed that the selected model reproduced important characteristics of the observed error distributions.</li>
 <li>Robustness analyses showed stable conclusions across alternative priors, sampling configurations, and experiment-specific analyses.</li>
 </ul>
 <h2 id="figures">Figures</h2>
 <figure>
     <img loading="lazy" src="figures/error-by-setsize.png"
-         alt="Error by Set Size"/> <figcaption>
+         alt="Mean angular error across memory loads"/> <figcaption>
             <p><strong>Figure 1.</strong> Mean angular error across memory loads.</p>
         </figcaption>
 </figure>
 
 <figure>
     <img loading="lazy" src="figures/participant-posterior.png"
-         alt="Participant Posterior Estimates"/> <figcaption>
+         alt="Individual differences in baseline memory precision"/> <figcaption>
             <p><strong>Figure 2.</strong> Individual differences in baseline memory precision estimated by the hierarchical Bayesian model.</p>
         </figcaption>
 </figure>
 
 <figure>
     <img loading="lazy" src="figures/participant-level-ppc.png"
-         alt="Participant Level Posterior Predictive Check"/> <figcaption>
+         alt="Participant-level posterior predictive evaluation"/> <figcaption>
             <p><strong>Figure 3.</strong> Posterior predictive evaluation of individual participant-level error patterns.</p>
         </figcaption>
 </figure>
 
 <figure>
     <img loading="lazy" src="figures/posterior-predictive-setsize.png"
-         alt="Posterior Predictive Set Size Evaluation"/> <figcaption>
-            <p><strong>Figure 4.</strong> Posterior predictive evaluation of the relationship between set size and recall error.</p>
+         alt="Posterior predictive evaluation of memory-load effects"/> <figcaption>
+            <p><strong>Figure 4.</strong> Posterior predictive evaluation of the relationship between memory load and recall error.</p>
         </figcaption>
 </figure>
 
-<h2 id="discussion">Discussion</h2>
-<p>The findings provide evidence that visual working memory precision decreases as memory load increases. The hierarchical Bayesian models captured both population-level changes in precision and individual differences among participants. The nonlinear model achieved the strongest predictive performance, suggesting that a flexible representation of memory-load effects described the observed behavioral data better than simpler alternatives. The study focuses on statistical modeling and reproducible analysis rather than proposing a new cognitive theory of visual working memory.</p>
 <h2 id="limitations">Limitations</h2>
 <ul>
 <li>Reliance on an existing open dataset limits experimental control.</li>
-<li>The analyses focus on one continuous-report paradigm and may not generalize to all working memory tasks.</li>
-<li>The model comparison was limited to statistical formulations rather than direct comparisons among cognitive theories.</li>
-<li>The von Mises likelihood assumes a specific distributional structure for circular response errors.</li>
+<li>The analyses focus on continuous-report paradigms and may not generalize to all working memory tasks.</li>
+<li>Model comparison was limited to statistical formulations rather than direct comparisons among competing cognitive theories.</li>
+<li>The von Mises likelihood imposes a specific distributional assumption on circular response errors.</li>
 </ul>
 <h2 id="next-steps">Next Steps</h2>
-<p>Future work will extend this framework by evaluating theoretically motivated cognitive models within a hierarchical Bayesian framework. Additional directions include applying the workflow to other working memory datasets, incorporating experiment-level effects, and comparing alternative computational models of memory precision and variability.</p>
-<h2 id="resources-and-outputs">Resources and Outputs</h2>
+<p>Future work will extend this framework toward theoretically motivated cognitive models within a hierarchical Bayesian framework. Additional directions include applying the workflow to other working memory datasets, incorporating experiment-level effects, and comparing alternative computational accounts of memory precision and variability.</p>
+<h2 id="resources--outputs">Resources &amp; Outputs</h2>
 <ul>
 <li><a href="https://github.com/erfanjaripour/hierarchical-bayesian-working-memory">GitHub Repository</a></li>
 <li><a href="https://doi.org/10.21203/rs.3.rs-10469232/v1">Preprint</a></li>

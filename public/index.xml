@@ -34,7 +34,9 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.&lt;/p&gt;</description>
+&lt;p&gt;The trial-by-trial behavioral adaptation project was larger than my two previous research projects and introduced several new challenges in organizing the analysis. I followed the planned minimalist repository structure and kept the project organized throughout development. As the analysis became more complex, however, I found that the same structure became increasingly difficult to navigate and review.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;The main problem appeared after the modeling, in visualizing and exporting the results. I had three main notebooks, supported by R scripts, including a data inspection notebook, an exploratory data analysis notebook, and a modeling notebook. I used this structure throughout the project as I had planned. As a result, the modeling notebook and the models R script contained the code for exporting the final results. This did not create a reproducibility problem, but the larger files became harder to review and navigate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task</title>
@@ -42,8 +44,8 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data from an openly available dataset, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.&lt;/p&gt;
-&lt;p&gt;The primary analysis uses logistic mixed-effects modeling to characterize trial-by-trial changes in the probability of selecting the option with the highest trial-specific payoff while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters or computational learning mechanisms.&lt;/p&gt;</description>
+&lt;p&gt;This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.&lt;/p&gt;
+&lt;p&gt;The primary analysis uses logistic mixed-effects modeling to characterize changes in the probability of selecting the highest-payoff option while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach</title>
@@ -51,7 +53,10 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/trial-by-trial-behavioral-adaptation/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.&lt;/em&gt; Research Square Preprint. &lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10740751/v1&#34;&gt;https://doi.org/10.21203/rs.3.rs-10740751/v1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jaripour, E. (2026).
+&lt;em&gt;Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.&lt;/em&gt;
+Research Square Preprint.
+&lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10740751/v1&#34;&gt;DOI: 10.21203/rs.3.rs-10740751/v1&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Adaptive decision-making requires individuals to modify behavior as reward environments change over time. Restless bandit tasks provide a framework for studying behavioral adaptation under dynamic conditions, although observable changes do not necessarily reveal latent cognitive mechanisms. The present study examined trial-by-trial behavioral adaptation in a four-arm restless bandit task using a publicly available dataset of 965 participants and 139,816 analyzed trials. Rather than estimating latent reinforcement-learning parameters, the study examined observable outcomes, trial-related change, differences across payoff environments, and individual differences in baseline behavior and adaptation. Mixed-effects models were fitted to payoff-maximizing choice, obtained reward, log-transformed reaction time, and choice switching. The primary analysis used a quadratic trial trajectory with payoff-environment interactions and participant-specific random intercepts, linear slopes, and quadratic slopes. The quadratic model provided substantially better AIC fit than the corresponding linear interaction model. Payoff-maximizing choice showed distinct linear and quadratic trajectories across payoff environments, while participants varied in baseline performance and trial-related change. Secondary analyses showed different reward trajectories across payoff environments, decreasing reaction times across trials without clear payoff-group differences, and decreasing choice switching, with evidence that this trajectory differed for Group 3 but not Group 4 relative to the reference environment. These findings indicate nonlinear changes in observable decision behavior during repeated decisions in a dynamic reward environment. Because latent values, beliefs, and learning parameters were not estimated, the findings do not identify the mechanisms underlying these changes. Instead, they provide a quantitative characterization of observable behavioral adaptation and a basis for future computational investigations of decision-making in dynamic environments.&lt;/p&gt;</description>
     </item>
@@ -61,7 +66,7 @@
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match what I expected from the analysis. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
+&lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match the expected results. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;I found that some analysis steps had not been documented as clearly as they should have been. During the analysis, I explored several alternative approaches, and a few code cells and comments no longer reflected the final workflow. To ensure everything was correct, I regenerated the main figures and carefully compared them with the final analysis.&lt;/p&gt;</description>
     </item>
@@ -71,7 +76,10 @@
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.&lt;/em&gt; Research Square Preprint. &lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10469232/v1&#34;&gt;https://doi.org/10.21203/rs.3.rs-10469232/v1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jaripour, E. (2026).
+&lt;em&gt;A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.&lt;/em&gt;
+Research Square Preprint.
+&lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10469232/v1&#34;&gt;DOI: 10.21203/rs.3.rs-10469232/v1&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Visual working memory is limited in both capacity and precision, and computational models increasingly aim to characterize how memory representations vary with increasing load and across individuals. The present study applied hierarchical Bayesian modeling to a publicly available continuous-report visual working-memory dataset to examine the relationship between memory load and precision while comparing alternative statistical representations of performance. Trial-level angular errors from three experiments were analyzed using Bayesian models with von Mises likelihoods. The evaluated models included a null hierarchical model with no memory-load effect, a hierarchical model estimating a population-level effect of set size with participant-specific variation, and a nonlinear hierarchical model allowing independent set-size effects through a sum-to-zero parameterization. Model performance was evaluated using posterior predictive checks, convergence diagnostics, and approximate leave-one-out cross-validation. Results showed that memory precision decreased systematically as memory load increased and that participants exhibited substantial differences in baseline precision. The nonlinear hierarchical model achieved the strongest predictive performance among the evaluated models, indicating that the relationship between memory load and precision was not fully captured by a simple linear representation. Robustness analyses demonstrated that the primary conclusions remained stable across alternative prior specifications, sampling configurations, and posterior initializations. These findings highlight the value of hierarchical Bayesian approaches for modeling individual variability in visual working-memory performance and demonstrate the utility of reproducible computational workflows for evaluating statistical models using open behavioral datasets.&lt;/p&gt;</description>
     </item>
@@ -81,7 +89,9 @@
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This project investigates how memory load influences visual working memory precision using trial-level data from an openly available continuous-report dataset. Using behavioral data from three visual working memory experiments, the study examines whether increasing set size is associated with reduced memory precision and whether individual differences can be captured using hierarchical Bayesian models. The project combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational analysis within an open-science workflow.&lt;/p&gt;</description>
+&lt;p&gt;This project investigates how memory load influences visual working memory precision using trial-level data from three openly available continuous-report experiments. The study examines how precision changes with increasing memory load and whether individual differences in performance can be characterized using hierarchical Bayesian models. The analysis combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational methods within an open-science workflow.&lt;/p&gt;
+&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
+&lt;p&gt;How does memory load influence visual working memory precision, and can hierarchical Bayesian models characterize individual differences and memory-load effects in continuous-report performance?&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Practice to Real Data</title>
@@ -89,7 +99,7 @@
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially more computation, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
+&lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially greater computational resources, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;The first challenge was computational performance. The models became extremely slow when using larger numbers of tuning and sampling iterations. After investigating the problem, I learned how to use NumPyro with JAX to improve sampling performance and adjusted several model settings to support the analysis better. Although these changes improved the workflow, convergence remained difficult for some nonlinear models. I tested many combinations of sampling parameters and repeatedly evaluated the results. Larger sampling runs also created memory limitations during model evaluation. After many iterations and hours of computation, I identified a configuration that produced stable results while remaining computationally practical.&lt;/p&gt;</description>
     </item>
@@ -99,7 +109,7 @@
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/stroop-interference/2026-07-08-learning-the-publication-process/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I recently attempt to publish my preprint on psyarxiv. After a day of prescreening, it rejected not because my quality of preprint, but because it is my first publicaiton and I have note any publication before. Although it is logical in science that your first work being a colaborative work, but in my case with the independent research, I happended to me. but it did not feel like a failior to me, it actually makes me exited because it reminds me that a seriouse scientific career just started for me.&lt;/p&gt;</description>
+&lt;p&gt;I recently attempted to publish my preprint on PsyArXiv. After a day of prescreening, the submission was not accepted because I did not have a previous publication, rather than because of an identified issue with the scientific content of the preprint. This was my first experience with the publication process as an independent researcher, and it highlighted an aspect of research dissemination that I had not previously encountered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing Python Environment Conflicts</title>
@@ -109,7 +119,7 @@
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
 &lt;!-- Data --&gt;
-&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to produce the results. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. So, I replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
+&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to run successfully. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. I therefore replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Bayesian Thinking</title>
@@ -117,9 +127,9 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.&lt;/p&gt;
+&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. After completing the first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference, I became interested not only in the statistical methods themselves but also in the underlying approach to reasoning.&lt;/p&gt;
 &lt;!-- Data --&gt;
-&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior beliefs are combined with new evidence to produce revised conclusions, while uncertainty remains a part of the process. This approach reminded me of scientific research itself, where conclusions are constantly refined as more evidence becomes available. Although Bayesian inference is only one framework for statistical reasoning, I found its emphasis on evidence-based belief updating closely aligned with how I think scientific investigation should be.&lt;/p&gt;</description>
+&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior information is combined with observed data to produce updated conclusions while explicitly representing uncertainty. Learning these foundations helped me understand how Bayesian methods differ from approaches that focus primarily on point estimates and fixed conclusions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Preparing The Preprint</title>
@@ -132,12 +142,12 @@
 &lt;p&gt;I reviewed every section multiple times to standardize the writing style and refine the organization of sections and subsections. I also verified references and ensured that every figure, table, and citation was correctly linked. I rechecked and removed repeated information to improve clarity and flow.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Open Data Challage</title>
+      <title>Open Data Challenge</title>
       <link>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
+&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw data contained malformed header rows, and 85 recording files corresponded to only 81 unique participant identifiers, indicating that some participants contributed multiple files or sessions.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
@@ -147,7 +157,10 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/stroop-interference/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Jaripour, E. (2026). &lt;em&gt;Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.&lt;/em&gt; Research Square Preprint. &lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10287577/v1&#34;&gt;https://doi.org/10.21203/rs.3.rs-10287577/v1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jaripour, E. (2026).
+&lt;em&gt;Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.&lt;/em&gt;
+Research Square Preprint.
+&lt;a href=&#34;https://doi.org/10.21203/rs.3.rs-10287577/v1&#34;&gt;DOI: 10.21203/rs.3.rs-10287577/v1&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The Stroop task is a classic paradigm for studying cognitive interference, selective attention, and response competition. By analyzing behavioral data from 81 participants, this study examined how congruent, incongruent, and neutral conditions affect reaction time and accuracy. The dataset contained trial-level responses from a publicly available Stroop experiment. In the preprocess, probe trials, invalid reaction times, and extreme values were removed. In addition, the participant–session structure in the raw files was resolved. The results showed a robust Stroop interference effect. The fastest reaction times were in the congruent condition, and the slowest in the incongruent condition. The neutral condition contained intermediate performances. The mean interference effect is defined as the difference in reaction time between incongruent and congruent trials. It was 106 ms. A paired-samples t-test confirmed a significant difference between incongruent and congruent conditions, with t(80) = 17.77, p &amp;lt; .001, and a large effect size (dz = 1.97). It showed strong interference at the group level. Accuracy remained high across conditions, with little evidence of a speed–accuracy trade-off. Assumption checks supported the use of parametric analysis.&lt;/p&gt;</description>
     </item>
@@ -157,19 +170,7 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/stroop-interference/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies condition-level differences in reaction time and accuracy, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines statistical analysis, reproducible data processing, and computational modeling within an open-science workflow.&lt;/p&gt;
-&lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
-&lt;p&gt;How does cognitive interference influence reaction time and accuracy during Stroop task performance, and to what extent can a simple computational model reproduce the observed interference pattern?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Computational Cognitive Science Training Portfolio</title>
-      <link>http://localhost:1313/research/computational-training/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/computational-training/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This repository documents a structured progression of practical training in Python programming, scientific computing, statistical analysis, mixed-effects modeling, Bayesian modeling, and reproducible research workflows. Rather than presenting a single research study, it serves as a cumulative record of methodological development for computational cognitive science. The portfolio emphasizes research-oriented data analysis, probabilistic reasoning, hierarchical modeling, transparent workflows, and reproducible computational methods as preparation for future empirical and computational research.&lt;/p&gt;
-&lt;h2 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h2&gt;
-&lt;p&gt;The primary objective of this project is to develop the computational, statistical, and modeling foundations required for behavioral and cognitive science research. The training focuses on scientific programming, data processing, statistical inference, mixed-effects modeling, Bayesian analysis, visualization, and reproducible analytical workflows that support experimental psychology and computational modeling.&lt;/p&gt;</description>
+&lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies differences in reaction time and accuracy across congruent, neutral, and incongruent conditions, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines behavioral analysis, statistical inference, and computational modeling within a reproducible open-science workflow.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

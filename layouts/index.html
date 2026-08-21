@@ -18,31 +18,42 @@
 
   <div class="stack mt-4">
 
-  {{ range where .Site.RegularPages "Section" "research" }}
-  {{ if eq .Params.status "Active" }}
+    {{ $projects := where .Site.RegularPages "Section" "research" }}
+    {{ $activeProjects := where $projects "Params.status" "Active" }}
 
-  <a class="card-link" href="{{ .RelPermalink }}">
+    {{ if $activeProjects }}
 
-      <article class="card">
+      {{ range $activeProjects }}
 
-        <h3>
-          {{ .Title }}
-        </h3>
+      <a class="card-link" href="{{ .RelPermalink }}">
 
-        <p class="card-meta mt-2">
-          {{ .Date.Format "January 2006" }} · {{ .Params.status }}
-        </p>
+        <article class="card">
 
-        <p class="card-preview mt-3">
-          {{ .Params.preview }}
-        </p>
+          <h3>
+            {{ .Title }}
+          </h3>
 
-      </article>
+          <p class="card-meta mt-2">
+            {{ .Date.Format "January 2006" }} · {{ .Params.status }}
+          </p>
 
-  </a>
+          <p class="card-preview mt-3">
+            {{ .Params.preview }}
+          </p>
 
-  {{ end }}
-  {{ end }}
+        </article>
+
+      </a>
+
+      {{ end }}
+
+    {{ else }}
+
+      <p class="descriptive">
+        There are currently no active research projects.
+      </p>
+
+    {{ end }}
 
   </div>
 
@@ -54,35 +65,45 @@
 
   <div class="stack mt-4">
 
-  {{ range first 3 (where site.RegularPages "Type" "notes") }}
+    {{ $notes := where site.RegularPages "Type" "notes" }}
 
-  <a class="card-link" href="{{ .RelPermalink }}">
+    {{ if $notes }}
 
-      <article class="card">
+      {{ range first 3 $notes }}
 
+      <a class="card-link" href="{{ .RelPermalink }}">
 
-        <h3>
+        <article class="card">
+
+          <h3>
             {{ .Title }}
-        </h3>
+          </h3>
 
-        <p class="card-meta mt-2">
-          {{ .Date.Format "2 January 2006" }}
-        </p>
+          <p class="card-meta mt-2">
+            {{ .Date.Format "2 January 2006" }}
+          </p>
 
-        <p class="card-preview mt-3">
-          {{ .Params.preview }}
-        </p>
+          <p class="card-preview mt-3">
+            {{ .Params.preview }}
+          </p>
 
-      </article>
+        </article>
 
-  </a>
+      </a>
 
-  {{ end }}
+      {{ end }}
+
+    {{ else }}
+
+      <p class="descriptive">
+        Research notes will be added as the research program develops.
+      </p>
+
+    {{ end }}
 
   </div>
 
 </section>
-
 
 <section>
 

@@ -122,12 +122,8 @@ section:last-child{
 
 /* ---------- Typography ---------- */
 
-.page-intro{
-
-    margin-top: var(--space-3);
-
-    color:var(--secondary);
-
+.descriptive {
+    color: var(--secondary);
 }
 
 .post-content hr{

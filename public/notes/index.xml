@@ -34,7 +34,9 @@
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;After several intensive weeks, the trial-by-trial behavioral adaptation project is finally finished. This project was slightly larger than my two previous research projects and taught me many new lessons. One of the first challenges I faced was organizing the project as it grew. Although I followed my planned minimalist repository structure and kept the project as organized as possible, I found that the same structure was harder to manage as the analysis became larger.&lt;/p&gt;</description>
+&lt;p&gt;The trial-by-trial behavioral adaptation project was larger than my two previous research projects and introduced several new challenges in organizing the analysis. I followed the planned minimalist repository structure and kept the project organized throughout development. As the analysis became more complex, however, I found that the same structure became increasingly difficult to navigate and review.&lt;/p&gt;
+&lt;!-- Data --&gt;
+&lt;p&gt;The main problem appeared after the modeling, in visualizing and exporting the results. I had three main notebooks, supported by R scripts, including a data inspection notebook, an exploratory data analysis notebook, and a modeling notebook. I used this structure throughout the project as I had planned. As a result, the modeling notebook and the models R script contained the code for exporting the final results. This did not create a reproducibility problem, but the larger files became harder to review and navigate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Following the Analysis Plan</title>
@@ -42,7 +44,7 @@
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match what I expected from the analysis. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
+&lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match the expected results. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;I found that some analysis steps had not been documented as clearly as they should have been. During the analysis, I explored several alternative approaches, and a few code cells and comments no longer reflected the final workflow. To ensure everything was correct, I regenerated the main figures and carefully compared them with the final analysis.&lt;/p&gt;</description>
     </item>
@@ -52,7 +54,7 @@
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially more computation, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
+&lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially greater computational resources, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;The first challenge was computational performance. The models became extremely slow when using larger numbers of tuning and sampling iterations. After investigating the problem, I learned how to use NumPyro with JAX to improve sampling performance and adjusted several model settings to support the analysis better. Although these changes improved the workflow, convergence remained difficult for some nonlinear models. I tested many combinations of sampling parameters and repeatedly evaluated the results. Larger sampling runs also created memory limitations during model evaluation. After many iterations and hours of computation, I identified a configuration that produced stable results while remaining computationally practical.&lt;/p&gt;</description>
     </item>
@@ -62,7 +64,7 @@
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/stroop-interference/2026-07-08-learning-the-publication-process/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I recently attempt to publish my preprint on psyarxiv. After a day of prescreening, it rejected not because my quality of preprint, but because it is my first publicaiton and I have note any publication before. Although it is logical in science that your first work being a colaborative work, but in my case with the independent research, I happended to me. but it did not feel like a failior to me, it actually makes me exited because it reminds me that a seriouse scientific career just started for me.&lt;/p&gt;</description>
+&lt;p&gt;I recently attempted to publish my preprint on PsyArXiv. After a day of prescreening, the submission was not accepted because I did not have a previous publication, rather than because of an identified issue with the scientific content of the preprint. This was my first experience with the publication process as an independent researcher, and it highlighted an aspect of research dissemination that I had not previously encountered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing Python Environment Conflicts</title>
@@ -72,7 +74,7 @@
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
 &lt;!-- Data --&gt;
-&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to produce the results. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. So, I replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
+&lt;p&gt;The first warning seemed harmless, so I continued working. Later, I discovered that some of the code I had learned from older resources was not compatible with newer library versions. The actual problem became clear when I started working with hierarchical Bayesian models. They took much longer than I expected to run and often failed to run successfully. After several unsuccessful attempts to fix individual packages, I concluded that my environment itself had become unstable. I decided to rebuild everything from scratch. I therefore replaced the existing pip-based installation with a clean Miniforge environment and reinstalled Python and all required packages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding Bayesian Thinking</title>
@@ -80,9 +82,9 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. The first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference are now done. I found its underlying approach to reasoning as interesting as statistical methods.&lt;/p&gt;
+&lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. After completing the first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference, I became interested not only in the statistical methods themselves but also in the underlying approach to reasoning.&lt;/p&gt;
 &lt;!-- Data --&gt;
-&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior beliefs are combined with new evidence to produce revised conclusions, while uncertainty remains a part of the process. This approach reminded me of scientific research itself, where conclusions are constantly refined as more evidence becomes available. Although Bayesian inference is only one framework for statistical reasoning, I found its emphasis on evidence-based belief updating closely aligned with how I think scientific investigation should be.&lt;/p&gt;</description>
+&lt;p&gt;Bayesian inference provides a framework for updating beliefs as new evidence becomes available. Prior information is combined with observed data to produce updated conclusions while explicitly representing uncertainty. Learning these foundations helped me understand how Bayesian methods differ from approaches that focus primarily on point estimates and fixed conclusions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Preparing The Preprint</title>
@@ -95,12 +97,12 @@
 &lt;p&gt;I reviewed every section multiple times to standardize the writing style and refine the organization of sections and subsections. I also verified references and ensured that every figure, table, and citation was correctly linked. I rechecked and removed repeated information to improve clarity and flow.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Open Data Challage</title>
+      <title>Open Data Challenge</title>
       <link>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
-&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw files contained malformed header rows, and 85 files mapped to only 81 unique participant IDs, suggesting repeated entries or session duplication.&lt;/p&gt;
+&lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw data contained malformed header rows, and 85 recording files corresponded to only 81 unique participant identifiers, indicating that some participants contributed multiple files or sessions.&lt;/p&gt;
 &lt;!-- Data --&gt;
 &lt;p&gt;I had to rebuild the file structure, separate metadata from trial data, and check duplicated participant records. It was necessary to identify which files corresponded to unique participants and which ones were repeated or continuation sessions.&lt;/p&gt;</description>
     </item>
