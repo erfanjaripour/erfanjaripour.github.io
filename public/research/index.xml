@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Research on Erfan Jaripour</title>
-    <link>http://localhost:1313/research/</link>
+    <link>https://erfanjaripour.com/research/</link>
     <description>Recent content in Research on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erfanjaripour.com/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task</title>
-      <link>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</link>
+      <link>https://erfanjaripour.com/research/trial-by-trial-behavioral-adaptation/</link>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</guid>
+      <guid>https://erfanjaripour.com/research/trial-by-trial-behavioral-adaptation/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.&lt;/p&gt;
 &lt;p&gt;The primary analysis uses logistic mixed-effects modeling to characterize changes in the probability of selecting the highest-payoff option while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hierarchical Bayesian Modeling of Visual Working Memory Precision</title>
-      <link>http://localhost:1313/research/hierarchical-bayesian-working-memory/</link>
+      <link>https://erfanjaripour.com/research/hierarchical-bayesian-working-memory/</link>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/hierarchical-bayesian-working-memory/</guid>
+      <guid>https://erfanjaripour.com/research/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates how memory load influences visual working memory precision using trial-level data from three openly available continuous-report experiments. The study examines how precision changes with increasing memory load and whether individual differences in performance can be characterized using hierarchical Bayesian models. The analysis combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational methods within an open-science workflow.&lt;/p&gt;
 &lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Stroop Interference: A Behavioral and Computational Analysis</title>
-      <link>http://localhost:1313/research/stroop-interference/</link>
+      <link>https://erfanjaripour.com/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/stroop-interference/</guid>
+      <guid>https://erfanjaripour.com/research/stroop-interference/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies differences in reaction time and accuracy across congruent, neutral, and incongruent conditions, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines behavioral analysis, statistical inference, and computational modeling within a reproducible open-science workflow.&lt;/p&gt;</description>
     </item>
