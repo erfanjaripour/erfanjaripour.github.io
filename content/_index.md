@@ -1,6 +1,8 @@
 ---
 title: "Home"
 
+description: "Erfan Jaripour is a psychology researcher working in computational cognitive science, cognitive modeling, Bayesian methods, memory, and learning."
+
 field: "Computational Cognitive Science"
 location: "Tehran, Iran"
 

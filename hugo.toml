@@ -1,4 +1,4 @@
-baseURL = "https://erfanjaripour.github.io/"
+baseURL = "https://erfanjaripour.com/"
 locale = "en-us"
 title = "Erfan Jaripour"
 theme = "PaperMod"
@@ -23,7 +23,12 @@ theme = "PaperMod"
   
   keywords = [
     "Erfan Jaripour",
-    "Computational Cognitive Science"
+    "Computational Cognitive Science",
+    "Cognitive Modeling",
+    "Bayesian Modeling",
+    "Working Memory",
+    "Decision-Making",
+    "Learning"
   ]
 
 [menu]
