@@ -50,7 +50,7 @@
     {{ else }}
 
       <p class="descriptive">
-        There are currently no active research projects.
+        {{ .Params.empty_states.active_projects }}
       </p>
 
     {{ end }}
@@ -96,7 +96,7 @@
     {{ else }}
 
       <p class="descriptive">
-        Research notes will be added as the research program develops.
+        {{ .Params.empty_states.research_notes }}
       </p>
 
     {{ end }}
