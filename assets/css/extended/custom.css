@@ -398,6 +398,31 @@ a.inline-link:hover {
     margin-bottom: var(--space-3);
 }
 
+.about-content > p:first-child{
+    margin-top:0;
+}
+
+.about-content > p:first-child img{
+    float:left;
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    margin:0 var(--space-5) var(--space-3) 0;
+    border-radius:4px;
+}
+
+@media (max-width:768px){
+
+    .about-content > p:first-child img{
+        float:none;
+        display:block;
+        margin:0 auto var(--space-4);
+        width:200px;
+        height:200px;
+    }
+
+}
+
 .about-content p:last-child {
     margin-bottom: 0;
 }

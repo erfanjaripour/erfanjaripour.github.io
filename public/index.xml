@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Erfan Jaripour</title>
-    <link>https://erfanjaripour.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Erfan Jaripour</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://erfanjaripour.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Choosing the Right Modeling Approach</title>
-      <link>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</link>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</link>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</guid>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-19-choosing-the-right-modeling-approach/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;One important modeling decision I made during the trial-by-trial behavioral adaptation project was to reconsider the role of Bayesian modeling in the analysis. I planned initially to include a Bayesian mixed-effects model alongside the frequentist analysis. The goal was to provide a complementary approach and examine whether the main conclusions were consistent across the two methods.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Managing Git Commit Scope</title>
-      <link>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</link>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</link>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</guid>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-18-managing-git-commit-scope/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;One important lesson I learned while working on a larger project was to manage the scope of Git commits more carefully. I already knew that each commit should represent a clear change. However, the challenge was keeping the scope of each change under control as the project became more complex.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -30,9 +30,9 @@
     </item>
     <item>
       <title>Adapting the Repository Structure</title>
-      <link>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</link>
+      <link>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</link>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
+      <guid>http://localhost:1313/notes/trial-by-trial-behavioral-adaptation/2026-08-17-adapting-the-repository-structure/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;The trial-by-trial behavioral adaptation project was larger than my two previous research projects and introduced several new challenges in organizing the analysis. I followed the planned minimalist repository structure and kept the project organized throughout development. As the analysis became more complex, however, I found that the same structure became increasingly difficult to navigate and review.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -40,18 +40,18 @@
     </item>
     <item>
       <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task</title>
-      <link>https://erfanjaripour.com/research/trial-by-trial-behavioral-adaptation/</link>
+      <link>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</link>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/research/trial-by-trial-behavioral-adaptation/</guid>
+      <guid>http://localhost:1313/research/trial-by-trial-behavioral-adaptation/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates how human behavior changes across repeated trials in a dynamic four-arm restless bandit task. Using trial-level behavioral data, the analysis examines changes in payoff-maximizing choice, obtained reward, reaction time, and choice switching across the trial sequence.&lt;/p&gt;
 &lt;p&gt;The primary analysis uses logistic mixed-effects modeling to characterize changes in the probability of selecting the highest-payoff option while accounting for individual differences in baseline behavior and behavioral trajectories. The analysis focuses on observable behavioral adaptation rather than estimating latent reinforcement-learning parameters.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach</title>
-      <link>https://erfanjaripour.com/publications/trial-by-trial-behavioral-adaptation/</link>
+      <link>http://localhost:1313/publications/trial-by-trial-behavioral-adaptation/</link>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/publications/trial-by-trial-behavioral-adaptation/</guid>
+      <guid>http://localhost:1313/publications/trial-by-trial-behavioral-adaptation/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;Jaripour, E. (2026).
 &lt;em&gt;Trial-by-Trial Behavioral Adaptation in a Restless Bandit Task: A Mixed-Effects Modeling Approach.&lt;/em&gt;
@@ -62,9 +62,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Following the Analysis Plan</title>
-      <link>https://erfanjaripour.com/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</link>
+      <link>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</link>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</guid>
+      <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-24-following-the-analysis-plan/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;The hierarchical Bayesian analysis of the working memory study was nearly complete, and I was preparing the preprint for public release. During a final review, I noticed that a few figures did not match the expected results. I decided to review the entire workflow and recreate the figures to verify the results.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -72,9 +72,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision</title>
-      <link>https://erfanjaripour.com/publications/hierarchical-bayesian-working-memory/</link>
+      <link>http://localhost:1313/publications/hierarchical-bayesian-working-memory/</link>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/publications/hierarchical-bayesian-working-memory/</guid>
+      <guid>http://localhost:1313/publications/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;Jaripour, E. (2026).
 &lt;em&gt;A Hierarchical Bayesian Analysis of Memory Load Effects on Visual Working Memory Precision.&lt;/em&gt;
@@ -85,9 +85,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Hierarchical Bayesian Modeling of Visual Working Memory Precision</title>
-      <link>https://erfanjaripour.com/research/hierarchical-bayesian-working-memory/</link>
+      <link>http://localhost:1313/research/hierarchical-bayesian-working-memory/</link>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/research/hierarchical-bayesian-working-memory/</guid>
+      <guid>http://localhost:1313/research/hierarchical-bayesian-working-memory/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates how memory load influences visual working memory precision using trial-level data from three openly available continuous-report experiments. The study examines how precision changes with increasing memory load and whether individual differences in performance can be characterized using hierarchical Bayesian models. The analysis combines circular statistics, Bayesian modeling, predictive evaluation, and reproducible computational methods within an open-science workflow.&lt;/p&gt;
 &lt;h2 id=&#34;research-question&#34;&gt;Research Question&lt;/h2&gt;
@@ -95,9 +95,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>From Practice to Real Data</title>
-      <link>https://erfanjaripour.com/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</link>
+      <link>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</link>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</guid>
+      <guid>http://localhost:1313/notes/hierarchical-bayesian-working-memory/2026-07-13-from-practice-to-real-data/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;I am currently developing hierarchical Bayesian models for a working memory project. Building cognitive models with real data proved much more challenging than the practice exercises and small examples I completed during my Bayesian methods training. The models required substantially greater computational resources, and achieving reliable convergence, especially for nonlinear models, became an important part of the analysis.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -105,17 +105,17 @@ Research Square Preprint.
     </item>
     <item>
       <title>Learning the Publication Process</title>
-      <link>https://erfanjaripour.com/notes/stroop-interference/2026-07-08-learning-the-publication-process/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-07-08-learning-the-publication-process/</link>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/stroop-interference/2026-07-08-learning-the-publication-process/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-07-08-learning-the-publication-process/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;I recently attempted to publish my preprint on PsyArXiv. After a day of prescreening, the submission was not accepted because I did not have a previous publication, rather than because of an identified issue with the scientific content of the preprint. This was my first experience with the publication process as an independent researcher, and it highlighted an aspect of research dissemination that I had not previously encountered.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing Python Environment Conflicts</title>
-      <link>https://erfanjaripour.com/notes/computational-training/2026-07-03-python-environment-conflicts/</link>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/computational-training/2026-07-03-python-environment-conflicts/</guid>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-python-environment-conflicts/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;During my training in Bayesian methods, I encountered a series of unexpected problems with my Python environment. What initially appeared to be a minor warning during package imports gradually developed into compatibility issues across multiple libraries. As the exercises became more advanced, these problems began to interrupt my workflow and prevent several Bayesian models from running correctly.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -123,9 +123,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Understanding Bayesian Thinking</title>
-      <link>https://erfanjaripour.com/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
+      <link>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
+      <guid>http://localhost:1313/notes/computational-training/2026-07-03-understanding-bayesian-thinking/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;I recently started learning Bayesian methods as part of my computational cognitive science training. After completing the first practice notebooks on Bayes&amp;rsquo; theorem and basic Bayesian inference, I became interested not only in the statistical methods themselves but also in the underlying approach to reasoning.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -133,9 +133,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Preparing The Preprint</title>
-      <link>https://erfanjaripour.com/notes/stroop-interference/2026-06-26-preparing-the-preprint/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</link>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-26-preparing-the-preprint/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Writing the first preprint involved more than summarizing the analyses. The manuscript had to be organized into a clear scientific structure. It also had to include consistent terminology, correctly referenced figures and tables, and minimal repetition across sections.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -143,9 +143,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Open Data Challenge</title>
-      <link>https://erfanjaripour.com/notes/stroop-interference/2026-06-15-open-data-challenge/</link>
+      <link>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/notes/stroop-interference/2026-06-15-open-data-challenge/</guid>
+      <guid>http://localhost:1313/notes/stroop-interference/2026-06-15-open-data-challenge/</guid>
       <description>&lt;!-- Situation --&gt;
 &lt;p&gt;Working with an open dataset for the Stroop interference project revealed unexpected data and preprocessing issues. The raw data contained malformed header rows, and 85 recording files corresponded to only 81 unique participant identifiers, indicating that some participants contributed multiple files or sessions.&lt;/p&gt;
 &lt;!-- Data --&gt;
@@ -153,9 +153,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis</title>
-      <link>https://erfanjaripour.com/publications/stroop-interference/</link>
+      <link>http://localhost:1313/publications/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/publications/stroop-interference/</guid>
+      <guid>http://localhost:1313/publications/stroop-interference/</guid>
       <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 &lt;p&gt;Jaripour, E. (2026).
 &lt;em&gt;Stroop Interference in Reaction Time and Accuracy: A Behavioral and Computational Analysis.&lt;/em&gt;
@@ -166,9 +166,9 @@ Research Square Preprint.
     </item>
     <item>
       <title>Stroop Interference: A Behavioral and Computational Analysis</title>
-      <link>https://erfanjaripour.com/research/stroop-interference/</link>
+      <link>http://localhost:1313/research/stroop-interference/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://erfanjaripour.com/research/stroop-interference/</guid>
+      <guid>http://localhost:1313/research/stroop-interference/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project investigates cognitive interference in the Stroop task using trial-level behavioral data from an openly available experimental dataset. Using data from 81 participants, the study quantifies differences in reaction time and accuracy across congruent, neutral, and incongruent conditions, examines individual variability in interference effects, and evaluates whether a simple computational model can reproduce the observed behavioral pattern. The project combines behavioral analysis, statistical inference, and computational modeling within a reproducible open-science workflow.&lt;/p&gt;</description>
     </item>
